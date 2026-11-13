@@ -7,10 +7,9 @@ import com.ferreteria.entity.general.Estado;
  * de presupuestos y facturas. Es el unico lugar que consulta la tabla estados.
  */
 public interface EstadoService {
-
-    /** Id del estado inactivo (configurado por id o buscado por nombre). */
     Long getInactivoId();
-
-    /** Referencia (solo con id, sin consultar la BD) al estado inactivo, lista para asignar a una entidad. */
     Estado getInactivo();
+
+    /** Id de un estado por su nombre (sin distinguir mayusculas); 400 si no existe. */
+    Long getIdPorNombre(String nombre);
 }

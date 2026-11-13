@@ -68,4 +68,15 @@ public class EstadoServiceImpl implements EstadoService {
                         "No existe el estado '" + inactivoNombre + "' en la tabla estados; "
                                 + "configure app.ventas.estado.inactivo-id o app.ventas.estado.inactivo-nombre"));
     }
+    private final java.util.Map<String, Long> cachePorNombre = new java.util.concurrent.ConcurrentHashMap<>();
+
+    @Override
+    @Transactional(readOnly = true)
+    public Long getIdPorNombre(String nombre) {
+        return cachePorNombre.computeIfAbsent(nombre.trim().toLowerCase(), k ->
+                repository.findFirstByNombreIgnoreCase(nombre)
+                        .map(Estado::getIdEstado)
+                        .orElseThrow(() -> new com.ferreteria.ventas.exception.BusinessException(
+                                "No existe el estado '" + nombre + "' en la tabla estados")));
+    }
 }

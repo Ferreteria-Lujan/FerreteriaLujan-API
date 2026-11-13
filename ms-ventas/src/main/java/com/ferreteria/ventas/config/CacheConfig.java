@@ -61,7 +61,7 @@ public class CacheConfig {
         RedisCacheManager redis = RedisCacheManager.builder(connectionFactory)
                 .cacheDefaults(base.entryTtl(Duration.ofMinutes(Math.max(props.defaultTtlMinutes(), 0))))
                 .withInitialCacheConfigurations(perCache)
-                // solo existen las secciones declaradas arriba (un nombre mal escrito falla al usarse)
+                .transactionAware()   // <-- agregar: put/evict se aplican DESPUES del commit, igual que ms-compras
                 .disableCreateOnMissingCache()
                 .build();
         // el manager interno no es un bean (el bean es el decorador), asi que Spring no lo inicializa solo
