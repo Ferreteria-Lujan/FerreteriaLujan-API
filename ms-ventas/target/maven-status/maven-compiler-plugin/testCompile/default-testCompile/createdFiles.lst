@@ -1,0 +1,13 @@
+com\ferreteria\ventas\exception\GlobalExceptionHandlerTest$FailingController.class
+com\ferreteria\ventas\service\AbstractLogicalDeleteServiceTest.class
+com\ferreteria\ventas\security\AuthFilterTest$1.class
+com\ferreteria\ventas\config\ResilientCacheManagerTest.class
+com\ferreteria\ventas\exception\GlobalExceptionHandlerTest$Body.class
+com\ferreteria\ventas\service\ClienteServiceImplTest.class
+com\ferreteria\ventas\service\FacturaVentaServiceImplTest.class
+com\ferreteria\ventas\service\AbstractBaseServiceTest.class
+com\ferreteria\ventas\security\RoleAccessTest.class
+com\ferreteria\ventas\cache\LoggingCacheTest.class
+com\ferreteria\ventas\exception\GlobalExceptionHandlerTest.class
+com\ferreteria\ventas\security\AuthFilterTest.class
+com\ferreteria\ventas\config\CachePropertiesTest.class

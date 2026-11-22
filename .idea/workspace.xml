@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="275de670-4e27-47fa-8157-8eba388d4708" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/logs/api-gateway.log.2026-11-15.0.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/api-gateway-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/api-gateway-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/ferreteria/apigateway/ApiGatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/ferreteria/apigateway/docs/SwaggerDefinitionsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/ferreteria/apigateway/docs/SwaggerProperties$Definition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/ferreteria/apigateway/docs/SwaggerProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/ferreteria/apigateway/error/ApiError.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/ferreteria/apigateway/error/ApiErrorAttributes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/ferreteria/apigateway/error/ApiErrorFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/ferreteria/apigateway/error/ApiErrorWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/ferreteria/apigateway/security/JwtGatewayFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/ferreteria/apigateway/security/JwtService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/classes/static/swagger-ui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/surefire-reports/TEST-com.ferreteria.apigateway.docs.SwaggerDefinitionsControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/surefire-reports/TEST-com.ferreteria.apigateway.error.ApiErrorFilterTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/surefire-reports/TEST-com.ferreteria.apigateway.security.JwtGatewayFilterTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/surefire-reports/com.ferreteria.apigateway.docs.SwaggerDefinitionsControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/surefire-reports/com.ferreteria.apigateway.error.ApiErrorFilterTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/surefire-reports/com.ferreteria.apigateway.security.JwtGatewayFilterTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/test-classes/com/ferreteria/apigateway/docs/SwaggerDefinitionsControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/test-classes/com/ferreteria/apigateway/error/ApiErrorFilterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/target/test-classes/com/ferreteria/apigateway/security/JwtGatewayFilterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/classes/com/ferreteria/eurekaserver/EurekaServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/surefire-reports/TEST-com.ferreteria.eurekaserver.EurekaServerApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/surefire-reports/com.ferreteria.eurekaserver.EurekaServerApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server/target/test-classes/com/ferreteria/eurekaserver/EurekaServerApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/logs/ms-compras-error.2026-10-26.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/logs/ms-compras-error.2026-11-13.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/logs/ms-compras.2026-10-26.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/logs/ms-compras.2026-11-10.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/logs/ms-compras.2026-11-11.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/logs/ms-compras.2026-11-13.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/logs/ms-compras.2026-11-15.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/controller/DetallePedidoCompraController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/controller/PedidoCompraController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/dto/DetallePedidoCompraAltaRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/dto/DetallePedidoCompraRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/dto/DetallePedidoCompraResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/dto/PedidoCompraRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/dto/PedidoCompraResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/dto/RegistroCompraRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/service/DetallePedidoCompraService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/service/PedidoCompraService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/service/RegistroCompraService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/service/impl/DetallePedidoCompraServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/service/impl/PedidoCompraServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/service/impl/RegistroCompraServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/ComprasApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/config/CacheConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/config/CacheNames.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/config/LoggingCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/config/LoggingCacheManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/config/OpenApiConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/config/ResilientCacheManager$Circuit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/config/ResilientCacheManager$ResilientCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/config/ResilientCacheManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/controller/AbstractBaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/controller/DetalleFacturaCompraController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/controller/DetallePedidoCompraController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/controller/FacturaCompraController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/controller/PedidoCompraController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/controller/ProveedorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/dto/DetallePedidoCompraAltaRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/dto/DetallePedidoCompraRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/dto/DetallePedidoCompraResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/dto/PedidoCompraRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/dto/PedidoCompraResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/dto/RegistroCompraRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/exception/BusinessRuleException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/exception/DuplicateResourceException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/exception/ResourceNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/filter/DetalleFacturaCompraFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/filter/FacturaCompraFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/filter/ProveedorFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/mapper/DetalleFacturaCompraMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/mapper/DetalleFacturaCompraMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/mapper/FacturaCompraMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/mapper/FacturaCompraMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/mapper/GenericMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/mapper/ProveedorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/mapper/ProveedorMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/repository/BaseRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/repository/DetalleFacturaCompraRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/repository/EstadoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/repository/FacturaCompraRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/repository/ProveedorRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/security/AuthFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/security/JwtConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/security/JwtConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/security/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/security/JwtSpec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/security/RestSecurityErrorHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/security/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/security/UsuarioPrincipal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/AbstractBaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/CrudService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/DetalleFacturaCompraService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/DetallePedidoCompraService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/EstadoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/FacturaCompraService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/PedidoCompraService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/ProveedorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/RegistroCompraService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/SpecificationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/impl/DetalleFacturaCompraServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/impl/DetallePedidoCompraServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/impl/EstadoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/impl/FacturaCompraServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/impl/PedidoCompraServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/impl/ProveedorServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/impl/RegistroCompraServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/support/EstadoVisibilidad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/com/ferreteria/compras/service/support/IvaCalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/generated-sources/annotations/com/ferreteria/compras/mapper/DetalleFacturaCompraMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/generated-sources/annotations/com/ferreteria/compras/mapper/FacturaCompraMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/generated-sources/annotations/com/ferreteria/compras/mapper/ProveedorMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/test-classes/com/ferreteria/compras/config/ResilientCacheManagerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/test-classes/com/ferreteria/compras/exception/GlobalExceptionHandlerTest$Body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/test-classes/com/ferreteria/compras/exception/GlobalExceptionHandlerTest$FailingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/test-classes/com/ferreteria/compras/exception/GlobalExceptionHandlerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/test-classes/com/ferreteria/compras/security/AuthFilterTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/test-classes/com/ferreteria/compras/security/AuthFilterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/test-classes/com/ferreteria/compras/service/AbstractBaseServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/test-classes/com/ferreteria/compras/service/DetalleFacturaCompraServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/test-classes/com/ferreteria/compras/service/FacturaCompraServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-compras/target/test-classes/com/ferreteria/compras/service/IvaCalculatorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/logs/ms-inventario-error.2026-11-13.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/logs/ms-inventario-error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/logs/ms-inventario.2026-10-26.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/logs/ms-inventario.2026-11-10.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/logs/ms-inventario.2026-11-11.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/logs/ms-inventario.2026-11-13.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/logs/ms-inventario.2026-11-15.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/logs/ms-inventario.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/InventarioApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/config/CacheConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/config/CacheNames.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/config/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/config/OpenApiConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/config/ResilientCacheManager$Circuit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/config/ResilientCacheManager$ResilientCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/config/ResilientCacheManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/controller/AbstractBaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/controller/CategoriaProductoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/controller/DepositoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/controller/DetalleTransferenciaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/controller/InventarioController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/controller/MarcaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/controller/ProductoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/controller/TransferenciaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/dto/AjusteStockRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/dto/ProcesarTransferenciaRequest$Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/dto/ProcesarTransferenciaRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/dto/TransferenciaProcesadaDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/exception/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/exception/ResourceNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/filter/CategoriaProductoFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/filter/DepositoFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/filter/DetalleTransferenciaFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/filter/InventarioFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/filter/MarcaFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/filter/ProductoFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/filter/TransferenciaFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/CategoriaProductoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/CategoriaProductoMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/DepositoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/DepositoMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/DetalleTransferenciaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/DetalleTransferenciaMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/GenericMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/InventarioMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/InventarioMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/MarcaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/MarcaMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/ProductoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/ProductoMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/TransferenciaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/mapper/TransferenciaMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/repository/BaseRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/repository/CategoriaProductoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/repository/DepositoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/repository/DetalleTransferenciaRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/repository/InventarioRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/repository/MarcaRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/repository/ProductoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/repository/TransferenciaRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/security/AuthFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/security/JwtConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/security/JwtConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/security/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/security/JwtSpec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/security/RestSecurityErrorHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/security/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/security/UsuarioPrincipal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/AbstractBaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/CategoriaProductoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/CrudService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/DepositoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/DetalleTransferenciaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/InventarioService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/MarcaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/ProductoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/SpecificationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/TransferenciaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/impl/CategoriaProductoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/impl/DepositoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/impl/DetalleTransferenciaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/impl/InventarioServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/impl/InventarioServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/impl/MarcaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/impl/ProductoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/service/impl/TransferenciaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/com/ferreteria/inventario/util/TxInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/generated-sources/annotations/com/ferreteria/inventario/mapper/CategoriaProductoMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/generated-sources/annotations/com/ferreteria/inventario/mapper/DepositoMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/generated-sources/annotations/com/ferreteria/inventario/mapper/DetalleTransferenciaMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/generated-sources/annotations/com/ferreteria/inventario/mapper/InventarioMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/generated-sources/annotations/com/ferreteria/inventario/mapper/MarcaMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/generated-sources/annotations/com/ferreteria/inventario/mapper/ProductoMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/generated-sources/annotations/com/ferreteria/inventario/mapper/TransferenciaMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/test-classes/com/ferreteria/inventario/config/ResilientCacheManagerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/test-classes/com/ferreteria/inventario/exception/GlobalExceptionHandlerTest$Body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/test-classes/com/ferreteria/inventario/exception/GlobalExceptionHandlerTest$FailingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/test-classes/com/ferreteria/inventario/exception/GlobalExceptionHandlerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/test-classes/com/ferreteria/inventario/security/AuthFilterTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/test-classes/com/ferreteria/inventario/security/AuthFilterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-inventario/target/test-classes/com/ferreteria/inventario/service/AbstractBaseServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/SeguridadApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/controller/AuthController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/controller/UsuarioController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/dto/LoginRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/dto/LoginResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/dto/MeResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/dto/RefreshRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/dto/RefreshResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/exception/ApiException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/exception/TooManyAttemptsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/repository/EstadoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/repository/RolRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/repository/UsuarioRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/AccessProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/AdminBootstrap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/AuthFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/BootstrapProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/JwtConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/JwtKeys$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/JwtKeys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/JwtService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/JwtSpec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/LoginAttemptService$Entry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/LoginAttemptService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/LoginLimitProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/PasswordPolicy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/RestSecurityErrorHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/UsuarioDetailsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/security/UsuarioPrincipal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/classes/com/ferreteria/seguridad/service/UsuarioService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/ms-seguridad-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/ms-seguridad-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/surefire-reports/TEST-com.ferreteria.seguridad.security.AuthFilterTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/surefire-reports/TEST-com.ferreteria.seguridad.security.JwtServiceCompatibilityTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/surefire-reports/TEST-com.ferreteria.seguridad.security.LoginAttemptServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/surefire-reports/TEST-com.ferreteria.seguridad.security.PasswordPolicyTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/surefire-reports/TEST-com.ferreteria.seguridad.service.UsuarioDetailsServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/surefire-reports/TEST-com.ferreteria.seguridad.service.UsuarioServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/surefire-reports/com.ferreteria.seguridad.security.AuthFilterTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/surefire-reports/com.ferreteria.seguridad.security.JwtServiceCompatibilityTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/surefire-reports/com.ferreteria.seguridad.security.LoginAttemptServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/surefire-reports/com.ferreteria.seguridad.security.PasswordPolicyTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/surefire-reports/com.ferreteria.seguridad.service.UsuarioDetailsServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/surefire-reports/com.ferreteria.seguridad.service.UsuarioServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/test-classes/com/ferreteria/seguridad/security/AuthFilterTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/test-classes/com/ferreteria/seguridad/security/AuthFilterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/test-classes/com/ferreteria/seguridad/security/JwtServiceCompatibilityTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/test-classes/com/ferreteria/seguridad/security/LoginAttemptServiceTest$MutableClock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/test-classes/com/ferreteria/seguridad/security/LoginAttemptServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/test-classes/com/ferreteria/seguridad/security/PasswordPolicyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/test-classes/com/ferreteria/seguridad/service/UsuarioDetailsServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-seguridad/target/test-classes/com/ferreteria/seguridad/service/UsuarioServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/logs/ms-ventas-error.2026-10-26.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/logs/ms-ventas-error.2026-11-11.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/logs/ms-ventas-error.2026-11-13.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/logs/ms-ventas.2026-10-26.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/logs/ms-ventas.2026-11-10.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/logs/ms-ventas.2026-11-11.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/logs/ms-ventas.2026-11-13.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/logs/ms-ventas.2026-11-15.0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/src/main/java/com/ferreteria/ventas/controller/EstadoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/VentasApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/cache/LoggingCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/cache/LoggingCacheManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/config/CacheConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/config/CacheNames.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/config/CacheProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/config/OpenApiConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/config/ResilientCacheManager$Circuit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/config/ResilientCacheManager$ResilientCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/config/ResilientCacheManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/controller/AbstractBaseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/controller/ClienteController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/controller/DetalleFacturaVentaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/controller/EstadoController$EstadoResumen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/controller/EstadoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/controller/FacturaVentaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/controller/PresupuestoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/controller/PresupuestoDetalleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/dto/FacturaVentaConDetallesDTO$Cabecera.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/dto/FacturaVentaConDetallesDTO$Linea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/dto/FacturaVentaConDetallesDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/dto/FacturaVentaCreadaDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/dto/PresupuestoConDetallesDTO$Linea.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/dto/PresupuestoConDetallesDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/dto/PresupuestoCreadoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/exception/BusinessException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/exception/ResourceNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/filter/ClienteFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/filter/DetalleFacturaVentaFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/filter/FacturaVentaFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/filter/PresupuestoDetalleFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/filter/PresupuestoFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/mapper/ClienteMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/mapper/ClienteMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/mapper/DetalleFacturaVentaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/mapper/DetalleFacturaVentaMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/mapper/EntityReferenceMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/mapper/FacturaVentaMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/mapper/FacturaVentaMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/mapper/GenericMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/mapper/PresupuestoDetalleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/mapper/PresupuestoDetalleMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/mapper/PresupuestoMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/mapper/PresupuestoMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/repository/BaseRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/repository/ClienteRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/repository/DetalleFacturaVentaRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/repository/EstadoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/repository/FacturaVentaRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/repository/PresupuestoDetalleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/repository/PresupuestoRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/security/AccessProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/security/AuthFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/security/JwtConfig$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/security/JwtConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/security/JwtProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/security/JwtSpec.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/security/RestSecurityErrorHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/security/RoleAccess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/security/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/security/UsuarioPrincipal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/AbstractBaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/AbstractLogicalDeleteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/ClienteService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/CrudService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/DetalleFacturaVentaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/EstadoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/FacturaVentaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/PresupuestoDetalleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/PresupuestoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/SpecificationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/VentaCompuestaService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/impl/ClienteServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/impl/DetalleFacturaVentaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/impl/EstadoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/impl/FacturaVentaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/impl/PresupuestoDetalleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/impl/PresupuestoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/com/ferreteria/ventas/service/impl/VentaCompuestaServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/classes/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/generated-sources/annotations/com/ferreteria/ventas/mapper/ClienteMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/generated-sources/annotations/com/ferreteria/ventas/mapper/DetalleFacturaVentaMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/generated-sources/annotations/com/ferreteria/ventas/mapper/FacturaVentaMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/generated-sources/annotations/com/ferreteria/ventas/mapper/PresupuestoDetalleMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/generated-sources/annotations/com/ferreteria/ventas/mapper/PresupuestoMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/test-classes/com/ferreteria/ventas/cache/LoggingCacheTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/test-classes/com/ferreteria/ventas/config/CachePropertiesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/test-classes/com/ferreteria/ventas/config/ResilientCacheManagerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/test-classes/com/ferreteria/ventas/exception/GlobalExceptionHandlerTest$Body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/test-classes/com/ferreteria/ventas/exception/GlobalExceptionHandlerTest$FailingController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/test-classes/com/ferreteria/ventas/exception/GlobalExceptionHandlerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/test-classes/com/ferreteria/ventas/security/AuthFilterTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/test-classes/com/ferreteria/ventas/security/AuthFilterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/test-classes/com/ferreteria/ventas/security/RoleAccessTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/test-classes/com/ferreteria/ventas/service/AbstractBaseServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/test-classes/com/ferreteria/ventas/service/AbstractLogicalDeleteServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/test-classes/com/ferreteria/ventas/service/ClienteServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-ventas/target/test-classes/com/ferreteria/ventas/service/FacturaVentaServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/logs/api-gateway.log" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/logs/api-gateway.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-compras/local.properties.example" beforeDir="false" afterPath="$PROJECT_DIR$/ms-compras/local.properties.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-compras/logs/ms-compras-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/ms-compras/logs/ms-compras-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-compras/logs/ms-compras.log" beforeDir="false" afterPath="$PROJECT_DIR$/ms-compras/logs/ms-compras.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/controller/FacturaCompraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-compras/src/main/java/com/ferreteria/compras/controller/FacturaCompraController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-compras/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-compras/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-ventas/logs/ms-ventas-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/ms-ventas/logs/ms-ventas-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-ventas/logs/ms-ventas.log" beforeDir="false" afterPath="$PROJECT_DIR$/ms-ventas/logs/ms-ventas.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;diogodelvalleFiuni&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ferreteria-Lujan/FerreteriaLujan-UI.git&quot;,
+    &quot;accountId&quot;: &quot;a32efb26-0dcb-4d6f-a62f-f805845dc174&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0055711628408615" />
+      <entry key="MS500" value="1.7648396160084583" />
+      <entry key="S2" value="6.82295175307327" />
+      <entry key="S5" value="12.996515845661017" />
+      <entry key="S10" value="17.2366110227829" />
+      <entry key="S30" value="21.361595989702263" />
+      <entry key="S60" value="22.624014869686942" />
+      <entry key="M2" value="23.297247754153823" />
+      <entry key="M5" value="24.00939298311924" />
+      <entry key="M10" value="30.915212286393242" />
+      <entry key="M15" value="49.21868456316877" />
+      <entry key="M30" value="145.45644966587554" />
+      <entry key="H1" value="356.12421962186687" />
+      <entry key="H2" value="615.9712885073161" />
+      <entry key="H4" value="829.838969642712" />
+      <entry key="D1" value="1076.1877673068213" />
+      <entry key="W1" value="1126.3780100048493" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="1.792125223357345E-207" />
+      <entry key="S30" value="1.376152389700183E-69" />
+      <entry key="S60" value="4.7584104659495216E-35" />
+      <entry key="M2" value="9.486327164414334E-18" />
+      <entry key="M5" value="2.5723263338125615E-7" />
+      <entry key="M10" value="0.0010419974666285557" />
+      <entry key="M15" value="0.019722906480487662" />
+      <entry key="M30" value="0.44807385497445024" />
+      <entry key="H1" value="2.3359472142050888" />
+      <entry key="H2" value="5.465844820406586" />
+      <entry key="H4" value="8.412432877048804" />
+      <entry key="D1" value="12.08700459375693" />
+      <entry key="W1" value="12.865379278051313" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9848391426955476" />
+      <entry key="MS500" value="1.756584902416451" />
+      <entry key="S2" value="6.808799109360466" />
+      <entry key="S5" value="12.981265441493255" />
+      <entry key="S10" value="17.225418304598257" />
+      <entry key="S30" value="21.35671009031292" />
+      <entry key="S60" value="22.621397010019994" />
+      <entry key="M2" value="23.295892410803614" />
+      <entry key="M5" value="24.008832210600485" />
+      <entry key="M10" value="30.915879728382617" />
+      <entry key="M15" value="49.23796251618149" />
+      <entry key="M30" value="145.90350680640097" />
+      <entry key="H1" value="358.45839614140027" />
+      <entry key="H2" value="621.4353054881549" />
+      <entry key="H4" value="838.2500627583448" />
+      <entry key="D1" value="1088.2744620377937" />
+      <entry key="W1" value="1139.2433424239434" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LCj8XRED2PhGzObtbF3L3o6U3G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Marti/Desktop/FerreteriaLujan-Distri&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="275de670-4e27-47fa-8157-8eba388d4708" name="Changes" comment="" />
+      <created>1792964786799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792964786799</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ferreteria API" />
+    <MESSAGE value="Nueva ruta para estados en ventas y su controller" />
+    <MESSAGE value="Nueva ruta para compras" />
+    <MESSAGE value="Cambios a la api para que no use cors porque estaba mal asi habia sido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambios a la api para que no use cors porque estaba mal asi habia sido" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

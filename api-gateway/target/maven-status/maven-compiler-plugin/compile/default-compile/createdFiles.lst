@@ -1,0 +1,10 @@
+com\ferreteria\apigateway\docs\SwaggerDefinitionsController.class
+com\ferreteria\apigateway\error\ApiErrorWriter.class
+com\ferreteria\apigateway\docs\SwaggerProperties$Definition.class
+com\ferreteria\apigateway\security\JwtGatewayFilter.class
+com\ferreteria\apigateway\docs\SwaggerProperties.class
+com\ferreteria\apigateway\security\JwtService.class
+com\ferreteria\apigateway\ApiGatewayApplication.class
+com\ferreteria\apigateway\error\ApiErrorAttributes.class
+com\ferreteria\apigateway\error\ApiError.class
+com\ferreteria\apigateway\error\ApiErrorFilter.class

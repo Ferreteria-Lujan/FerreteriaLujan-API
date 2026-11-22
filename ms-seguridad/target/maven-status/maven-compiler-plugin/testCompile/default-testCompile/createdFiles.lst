@@ -1,0 +1,8 @@
+com\ferreteria\seguridad\security\LoginAttemptServiceTest$MutableClock.class
+com\ferreteria\seguridad\service\UsuarioServiceTest.class
+com\ferreteria\seguridad\security\AuthFilterTest$1.class
+com\ferreteria\seguridad\security\JwtServiceCompatibilityTest.class
+com\ferreteria\seguridad\security\AuthFilterTest.class
+com\ferreteria\seguridad\security\LoginAttemptServiceTest.class
+com\ferreteria\seguridad\service\UsuarioDetailsServiceTest.class
+com\ferreteria\seguridad\security\PasswordPolicyTest.class

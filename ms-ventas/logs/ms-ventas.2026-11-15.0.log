@@ -1,0 +1,675 @@
+2026-11-15 13:10:26.118 INFO  [main] c.f.ventas.VentasApplication - Starting VentasApplication using Java 25.0.1 with PID 27868 (C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\FerreteriaLujan-Distri\ms-ventas\target\classes started by USUARIO in C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\FerreteriaLujan-Distri\ms-ventas)
+2026-11-15 13:10:26.129 INFO  [main] c.f.ventas.VentasApplication - No active profile set, falling back to 1 default profile: "default"
+2026-11-15 13:10:26.870 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-15 13:10:28.499 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-15 13:10:28.511 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-15 13:10:28.860 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 327 ms. Found 6 JPA repository interfaces.
+2026-11-15 13:10:28.895 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-15 13:10:28.897 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-11-15 13:10:28.945 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.ventas.repository.ClienteRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:10:28.952 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.ventas.repository.DetalleFacturaVentaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:10:28.953 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.ventas.repository.EstadoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:10:28.954 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.ventas.repository.FacturaVentaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:10:28.955 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.ventas.repository.PresupuestoDetalleRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:10:28.956 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.ventas.repository.PresupuestoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:10:28.957 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 0 Redis repository interfaces.
+2026-11-15 13:10:29.533 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=2aa152b1-fbdd-399c-a2cd-10ab6692438a
+2026-11-15 13:10:30.493 INFO  [main] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2026-11-15 13:10:30.522 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-8082"]
+2026-11-15 13:10:30.526 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-11-15 13:10:30.527 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-15 13:10:30.682 INFO  [main] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 4447 ms
+2026-11-15 13:10:31.101 INFO  [main] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-15 13:10:31.204 INFO  [main] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-15 13:10:32.127 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-15 13:10:32.189 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-15 13:10:33.740 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@31b7112d
+2026-11-15 13:10:33.744 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-15 13:10:34.971 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://aws-0-sa-east-1.pooler.supabase.com:5432/postgres?sslmode=require]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.6
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-15 13:10:37.501 INFO  [main] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-15 13:10:37.518 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-15 13:10:37.767 INFO  [main] o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-15 13:10:44.133 INFO  [main] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2026-11-15 13:10:45.212 INFO  [main] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2026-11-15 13:10:45.348 INFO  [main] o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestClient.
+2026-11-15 13:10:45.600 WARN  [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-11-15 13:10:45.994 INFO  [main] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2026-11-15 13:10:46.124 INFO  [main] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2026-11-15 13:10:46.152 INFO  [main] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-11-15 13:10:46.193 INFO  [main] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2026-11-15 13:10:46.194 INFO  [main] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2026-11-15 13:10:46.195 INFO  [main] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2026-11-15 13:10:46.196 INFO  [main] c.netflix.discovery.DiscoveryClient - Application is null : false
+2026-11-15 13:10:46.197 INFO  [main] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2026-11-15 13:10:46.198 INFO  [main] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2026-11-15 13:10:46.198 INFO  [main] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2026-11-15 13:10:47.566 INFO  [main] c.netflix.discovery.DiscoveryClient - The response status is 200
+2026-11-15 13:10:47.572 INFO  [main] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2026-11-15 13:10:47.581 INFO  [main] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-11-15 13:10:47.585 INFO  [main] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1794759047585 with initial instances count: 3
+2026-11-15 13:10:47.613 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application MS-VENTAS with eureka with status UP
+2026-11-15 13:10:47.615 INFO  [main] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1794759047615, current=UP, previous=STARTING]
+2026-11-15 13:10:47.619 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-8082"]
+2026-11-15 13:10:47.619 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] c.netflix.discovery.DiscoveryClient - DiscoveryClient_MS-VENTAS/ms-ventas:8082: registering service...
+2026-11-15 13:10:47.676 INFO  [main] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2026-11-15 13:10:47.678 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8082
+2026-11-15 13:10:47.762 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] c.netflix.discovery.DiscoveryClient - DiscoveryClient_MS-VENTAS/ms-ventas:8082 - registration status: 204
+2026-11-15 13:10:48.711 INFO  [main] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2026-11-15 13:10:48.744 INFO  [main] c.f.ventas.VentasApplication - Started VentasApplication in 24.784 seconds (process running for 26.211)
+2026-11-15 13:11:38.931 INFO  [http-nio-127.0.0.1-8082-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 13:11:38.933 INFO  [http-nio-127.0.0.1-8082-exec-4] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-11-15 13:11:38.936 INFO  [http-nio-127.0.0.1-8082-exec-4] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-11-15 13:11:39.202 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.v.controller.ClienteController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:39.202 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.v.c.FacturaVentaController - GET lista paginada: Page request [number: 0, size 100, sort: idFactura: DESC]
+2026-11-15 13:11:39.202 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.v.c.FacturaVentaController - GET lista paginada: Page request [number: 0, size 100, sort: idFactura: DESC]
+2026-11-15 13:11:39.355 DEBUG [http-nio-127.0.0.1-8082-exec-5] org.hibernate.SQL - 
+    select
+        e1_0.id_estado,
+        e1_0.nombre 
+    from
+        estados e1_0
+2026-11-15 13:11:39.355 DEBUG [http-nio-127.0.0.1-8082-exec-4] org.hibernate.SQL - 
+    select
+        e1_0.id_estado,
+        e1_0.nombre 
+    from
+        estados e1_0
+2026-11-15 13:11:39.814 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.v.s.impl.ClienteServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:39.814 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.v.s.impl.FacturaVentaServiceImpl - Listando registros activos: Page request [number: 0, size 100, sort: idFactura: DESC]
+2026-11-15 13:11:39.841 DEBUG [http-nio-127.0.0.1-8082-exec-3] org.hibernate.SQL - 
+    select
+        c1_0.id_persona,
+        c1_1.apellido,
+        c1_1.correo,
+        c1_1.direccion,
+        c1_1.fecha_nacimiento,
+        c1_1.nombre,
+        c1_1.ruc,
+        c1_1.telefono,
+        c1_1.tipo_persona,
+        c1_0.ci,
+        c1_0.limite_saldo,
+        c1_0.saldo_actual 
+    from
+        clientes c1_0 
+    join
+        personas c1_1 
+            on c1_0.id_persona=c1_1.id_persona 
+    order by
+        c1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:39.931 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=24
+2026-11-15 13:11:39.932 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=39
+2026-11-15 13:11:39.933 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=32
+2026-11-15 13:11:39.933 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=21
+2026-11-15 13:11:39.934 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=33
+2026-11-15 13:11:39.934 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=41
+2026-11-15 13:11:39.934 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=35
+2026-11-15 13:11:39.934 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=23
+2026-11-15 13:11:39.935 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=28
+2026-11-15 13:11:39.935 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=30
+2026-11-15 13:11:39.935 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=25
+2026-11-15 13:11:39.936 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=22
+2026-11-15 13:11:39.936 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=27
+2026-11-15 13:11:39.936 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=38
+2026-11-15 13:11:39.937 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=37
+2026-11-15 13:11:39.937 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=36
+2026-11-15 13:11:39.937 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=29
+2026-11-15 13:11:39.938 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=31
+2026-11-15 13:11:39.938 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=40
+2026-11-15 13:11:39.939 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=26
+2026-11-15 13:11:39.939 INFO  [http-nio-127.0.0.1-8082-exec-3] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=34
+2026-11-15 13:11:39.946 DEBUG [http-nio-127.0.0.1-8082-exec-1] org.hibernate.SQL - 
+    select
+        e1_0.id_estado,
+        e1_0.nombre 
+    from
+        estados e1_0 
+    where
+        upper(e1_0.nombre)=upper(?) 
+    fetch
+        first ? rows only
+2026-11-15 13:11:39.947 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.v.s.impl.FacturaVentaServiceImpl - Listando registros activos: Page request [number: 0, size 100, sort: idFactura: DESC]
+2026-11-15 13:11:39.950 DEBUG [http-nio-127.0.0.1-8082-exec-2] org.hibernate.SQL - 
+    select
+        e1_0.id_estado,
+        e1_0.nombre 
+    from
+        estados e1_0 
+    where
+        upper(e1_0.nombre)=upper(?) 
+    fetch
+        first ? rows only
+2026-11-15 13:11:39.981 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.v.controller.ClienteController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:40.001 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.v.service.impl.EstadoServiceImpl - Estado inactivo para borrado logico: id 2
+2026-11-15 13:11:40.001 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.v.service.impl.EstadoServiceImpl - Estado inactivo para borrado logico: id 2
+2026-11-15 13:11:40.033 DEBUG [http-nio-127.0.0.1-8082-exec-2] org.hibernate.SQL - 
+    select
+        fv1_0.id_factura,
+        fv1_0.id_cliente,
+        fv1_0.codigo_factura,
+        fv1_0.es_credito,
+        fv1_0.id_estado,
+        fv1_0.fecha_emision,
+        fv1_0.fecha_vencimiento,
+        fv1_0.importe_total,
+        fv1_0.iva,
+        fv1_0.nro_factura,
+        fv1_0.id_presupuesto,
+        fv1_0.timbrado 
+    from
+        facturas_ventas fv1_0 
+    where
+        fv1_0.id_estado is null 
+        or fv1_0.id_estado<>? 
+    order by
+        fv1_0.id_factura desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:40.033 DEBUG [http-nio-127.0.0.1-8082-exec-1] org.hibernate.SQL - 
+    select
+        fv1_0.id_factura,
+        fv1_0.id_cliente,
+        fv1_0.codigo_factura,
+        fv1_0.es_credito,
+        fv1_0.id_estado,
+        fv1_0.fecha_emision,
+        fv1_0.fecha_vencimiento,
+        fv1_0.importe_total,
+        fv1_0.iva,
+        fv1_0.nro_factura,
+        fv1_0.id_presupuesto,
+        fv1_0.timbrado 
+    from
+        facturas_ventas fv1_0 
+    where
+        fv1_0.id_estado is null 
+        or fv1_0.id_estado<>? 
+    order by
+        fv1_0.id_factura desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:40.251 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=15
+2026-11-15 13:11:40.251 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=15
+2026-11-15 13:11:40.251 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=14
+2026-11-15 13:11:40.252 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=14
+2026-11-15 13:11:40.252 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=13
+2026-11-15 13:11:40.252 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=12
+2026-11-15 13:11:40.252 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=13
+2026-11-15 13:11:40.252 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=11
+2026-11-15 13:11:40.252 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=12
+2026-11-15 13:11:40.253 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=10
+2026-11-15 13:11:40.253 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=11
+2026-11-15 13:11:40.253 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=9
+2026-11-15 13:11:40.253 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=10
+2026-11-15 13:11:40.253 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=8
+2026-11-15 13:11:40.253 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=9
+2026-11-15 13:11:40.253 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=7
+2026-11-15 13:11:40.254 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=8
+2026-11-15 13:11:40.254 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=6
+2026-11-15 13:11:40.254 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=7
+2026-11-15 13:11:40.254 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=5
+2026-11-15 13:11:40.255 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=6
+2026-11-15 13:11:40.255 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=4
+2026-11-15 13:11:40.255 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=5
+2026-11-15 13:11:40.255 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=3
+2026-11-15 13:11:40.255 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=4
+2026-11-15 13:11:40.255 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=2
+2026-11-15 13:11:40.256 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=3
+2026-11-15 13:11:40.256 INFO  [http-nio-127.0.0.1-8082-exec-1] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=1
+2026-11-15 13:11:40.256 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=2
+2026-11-15 13:11:40.256 INFO  [http-nio-127.0.0.1-8082-exec-2] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=1
+2026-11-15 13:11:40.795 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.v.s.impl.ClienteServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:40.804 DEBUG [http-nio-127.0.0.1-8082-exec-6] org.hibernate.SQL - 
+    select
+        c1_0.id_persona,
+        c1_1.apellido,
+        c1_1.correo,
+        c1_1.direccion,
+        c1_1.fecha_nacimiento,
+        c1_1.nombre,
+        c1_1.ruc,
+        c1_1.telefono,
+        c1_1.tipo_persona,
+        c1_0.ci,
+        c1_0.limite_saldo,
+        c1_0.saldo_actual 
+    from
+        clientes c1_0 
+    join
+        personas c1_1 
+            on c1_0.id_persona=c1_1.id_persona 
+    order by
+        c1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:40.908 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=24
+2026-11-15 13:11:40.910 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=39
+2026-11-15 13:11:40.910 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=32
+2026-11-15 13:11:40.911 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=21
+2026-11-15 13:11:40.911 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=33
+2026-11-15 13:11:40.911 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=41
+2026-11-15 13:11:40.912 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=35
+2026-11-15 13:11:40.912 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=23
+2026-11-15 13:11:40.914 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=28
+2026-11-15 13:11:40.915 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=30
+2026-11-15 13:11:40.919 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=25
+2026-11-15 13:11:40.921 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=22
+2026-11-15 13:11:40.922 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=27
+2026-11-15 13:11:40.922 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=38
+2026-11-15 13:11:40.922 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=37
+2026-11-15 13:11:40.923 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=36
+2026-11-15 13:11:40.923 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=29
+2026-11-15 13:11:40.923 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=31
+2026-11-15 13:11:40.923 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=40
+2026-11-15 13:11:40.924 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=26
+2026-11-15 13:11:40.924 INFO  [http-nio-127.0.0.1-8082-exec-6] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=34
+2026-11-15 13:11:41.536 WARN  [http-nio-127.0.0.1-8082-exec-2] o.s.d.w.c.SpringDataJackson3Configuration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-11-15 13:11:42.645 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.v.c.FacturaVentaController - GET lista paginada: Page request [number: 0, size 100, sort: idFactura: DESC]
+2026-11-15 13:11:42.662 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.v.c.FacturaVentaController - GET lista paginada: Page request [number: 0, size 100, sort: idFactura: DESC]
+2026-11-15 13:11:42.664 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.v.controller.ClienteController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:42.690 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.v.s.impl.FacturaVentaServiceImpl - Listando registros activos: Page request [number: 0, size 100, sort: idFactura: DESC]
+2026-11-15 13:11:42.694 DEBUG [http-nio-127.0.0.1-8082-exec-7] org.hibernate.SQL - 
+    select
+        fv1_0.id_factura,
+        fv1_0.id_cliente,
+        fv1_0.codigo_factura,
+        fv1_0.es_credito,
+        fv1_0.id_estado,
+        fv1_0.fecha_emision,
+        fv1_0.fecha_vencimiento,
+        fv1_0.importe_total,
+        fv1_0.iva,
+        fv1_0.nro_factura,
+        fv1_0.id_presupuesto,
+        fv1_0.timbrado 
+    from
+        facturas_ventas fv1_0 
+    where
+        fv1_0.id_estado is null 
+        or fv1_0.id_estado<>? 
+    order by
+        fv1_0.id_factura desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:42.700 DEBUG [http-nio-127.0.0.1-8082-exec-9] org.hibernate.SQL - 
+    select
+        e1_0.id_estado,
+        e1_0.nombre 
+    from
+        estados e1_0
+2026-11-15 13:11:42.703 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.v.s.impl.FacturaVentaServiceImpl - Listando registros activos: Page request [number: 0, size 100, sort: idFactura: DESC]
+2026-11-15 13:11:42.707 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.v.s.impl.ClienteServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:42.709 DEBUG [http-nio-127.0.0.1-8082-exec-10] org.hibernate.SQL - 
+    select
+        fv1_0.id_factura,
+        fv1_0.id_cliente,
+        fv1_0.codigo_factura,
+        fv1_0.es_credito,
+        fv1_0.id_estado,
+        fv1_0.fecha_emision,
+        fv1_0.fecha_vencimiento,
+        fv1_0.importe_total,
+        fv1_0.iva,
+        fv1_0.nro_factura,
+        fv1_0.id_presupuesto,
+        fv1_0.timbrado 
+    from
+        facturas_ventas fv1_0 
+    where
+        fv1_0.id_estado is null 
+        or fv1_0.id_estado<>? 
+    order by
+        fv1_0.id_factura desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:42.711 DEBUG [http-nio-127.0.0.1-8082-exec-8] org.hibernate.SQL - 
+    select
+        c1_0.id_persona,
+        c1_1.apellido,
+        c1_1.correo,
+        c1_1.direccion,
+        c1_1.fecha_nacimiento,
+        c1_1.nombre,
+        c1_1.ruc,
+        c1_1.telefono,
+        c1_1.tipo_persona,
+        c1_0.ci,
+        c1_0.limite_saldo,
+        c1_0.saldo_actual 
+    from
+        clientes c1_0 
+    join
+        personas c1_1 
+            on c1_0.id_persona=c1_1.id_persona 
+    order by
+        c1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:42.717 DEBUG [http-nio-127.0.0.1-8082-exec-5] org.hibernate.SQL - 
+    select
+        e1_0.id_estado,
+        e1_0.nombre 
+    from
+        estados e1_0
+2026-11-15 13:11:42.745 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=15
+2026-11-15 13:11:42.747 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=14
+2026-11-15 13:11:42.747 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=13
+2026-11-15 13:11:42.747 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=12
+2026-11-15 13:11:42.748 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=11
+2026-11-15 13:11:42.748 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=10
+2026-11-15 13:11:42.748 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=9
+2026-11-15 13:11:42.749 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=8
+2026-11-15 13:11:42.749 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=7
+2026-11-15 13:11:42.749 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=6
+2026-11-15 13:11:42.750 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=5
+2026-11-15 13:11:42.750 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=4
+2026-11-15 13:11:42.750 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=3
+2026-11-15 13:11:42.750 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=2
+2026-11-15 13:11:42.750 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=1
+2026-11-15 13:11:42.762 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=24
+2026-11-15 13:11:42.762 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=15
+2026-11-15 13:11:42.763 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=39
+2026-11-15 13:11:42.763 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=32
+2026-11-15 13:11:42.763 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=14
+2026-11-15 13:11:42.763 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=21
+2026-11-15 13:11:42.763 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=13
+2026-11-15 13:11:42.764 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=12
+2026-11-15 13:11:42.764 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=33
+2026-11-15 13:11:42.765 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=11
+2026-11-15 13:11:42.765 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=41
+2026-11-15 13:11:42.766 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=10
+2026-11-15 13:11:42.766 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=35
+2026-11-15 13:11:42.766 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=23
+2026-11-15 13:11:42.768 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=9
+2026-11-15 13:11:42.768 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=28
+2026-11-15 13:11:42.768 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=30
+2026-11-15 13:11:42.768 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=8
+2026-11-15 13:11:42.769 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=25
+2026-11-15 13:11:42.769 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=7
+2026-11-15 13:11:42.769 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=22
+2026-11-15 13:11:42.769 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=6
+2026-11-15 13:11:42.769 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=27
+2026-11-15 13:11:42.769 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=5
+2026-11-15 13:11:42.769 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=38
+2026-11-15 13:11:42.770 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=4
+2026-11-15 13:11:42.770 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=37
+2026-11-15 13:11:42.770 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=3
+2026-11-15 13:11:42.770 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=36
+2026-11-15 13:11:42.770 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=2
+2026-11-15 13:11:42.770 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=29
+2026-11-15 13:11:42.770 INFO  [http-nio-127.0.0.1-8082-exec-10] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=1
+2026-11-15 13:11:42.771 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=31
+2026-11-15 13:11:42.771 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=40
+2026-11-15 13:11:42.771 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=26
+2026-11-15 13:11:42.771 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=34
+2026-11-15 13:11:42.788 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.v.controller.ClienteController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:42.789 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.v.s.impl.ClienteServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:42.793 DEBUG [http-nio-127.0.0.1-8082-exec-4] org.hibernate.SQL - 
+    select
+        c1_0.id_persona,
+        c1_1.apellido,
+        c1_1.correo,
+        c1_1.direccion,
+        c1_1.fecha_nacimiento,
+        c1_1.nombre,
+        c1_1.ruc,
+        c1_1.telefono,
+        c1_1.tipo_persona,
+        c1_0.ci,
+        c1_0.limite_saldo,
+        c1_0.saldo_actual 
+    from
+        clientes c1_0 
+    join
+        personas c1_1 
+            on c1_0.id_persona=c1_1.id_persona 
+    order by
+        c1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:42.836 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=24
+2026-11-15 13:11:42.836 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=39
+2026-11-15 13:11:42.836 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=32
+2026-11-15 13:11:42.838 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=21
+2026-11-15 13:11:42.838 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=33
+2026-11-15 13:11:42.838 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=41
+2026-11-15 13:11:42.839 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=35
+2026-11-15 13:11:42.839 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=23
+2026-11-15 13:11:42.839 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=28
+2026-11-15 13:11:42.839 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=30
+2026-11-15 13:11:42.841 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=25
+2026-11-15 13:11:42.841 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=22
+2026-11-15 13:11:42.841 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=27
+2026-11-15 13:11:42.841 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=38
+2026-11-15 13:11:42.841 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=37
+2026-11-15 13:11:42.842 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=36
+2026-11-15 13:11:42.842 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=29
+2026-11-15 13:11:42.842 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=31
+2026-11-15 13:11:42.842 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=40
+2026-11-15 13:11:42.842 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=26
+2026-11-15 13:11:42.842 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=34
+2026-11-15 13:14:43.367 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.v.c.FacturaVentaController - GET lista paginada: Page request [number: 0, size 100, sort: idFactura: DESC]
+2026-11-15 13:14:43.367 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.v.controller.ClienteController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:14:43.371 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.v.c.FacturaVentaController - GET lista paginada: Page request [number: 0, size 100, sort: idFactura: DESC]
+2026-11-15 13:14:43.371 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.v.controller.ClienteController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:14:43.518 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.v.s.impl.ClienteServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:14:43.518 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.v.s.impl.FacturaVentaServiceImpl - Listando registros activos: Page request [number: 0, size 100, sort: idFactura: DESC]
+2026-11-15 13:14:43.518 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.v.s.impl.FacturaVentaServiceImpl - Listando registros activos: Page request [number: 0, size 100, sort: idFactura: DESC]
+2026-11-15 13:14:43.518 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.v.s.impl.ClienteServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:14:43.520 DEBUG [http-nio-127.0.0.1-8082-exec-10] org.hibernate.SQL - 
+    select
+        e1_0.id_estado,
+        e1_0.nombre 
+    from
+        estados e1_0
+2026-11-15 13:14:43.521 DEBUG [http-nio-127.0.0.1-8082-exec-4] org.hibernate.SQL - 
+    select
+        c1_0.id_persona,
+        c1_1.apellido,
+        c1_1.correo,
+        c1_1.direccion,
+        c1_1.fecha_nacimiento,
+        c1_1.nombre,
+        c1_1.ruc,
+        c1_1.telefono,
+        c1_1.tipo_persona,
+        c1_0.ci,
+        c1_0.limite_saldo,
+        c1_0.saldo_actual 
+    from
+        clientes c1_0 
+    join
+        personas c1_1 
+            on c1_0.id_persona=c1_1.id_persona 
+    order by
+        c1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:43.521 DEBUG [http-nio-127.0.0.1-8082-exec-5] org.hibernate.SQL - 
+    select
+        c1_0.id_persona,
+        c1_1.apellido,
+        c1_1.correo,
+        c1_1.direccion,
+        c1_1.fecha_nacimiento,
+        c1_1.nombre,
+        c1_1.ruc,
+        c1_1.telefono,
+        c1_1.tipo_persona,
+        c1_0.ci,
+        c1_0.limite_saldo,
+        c1_0.saldo_actual 
+    from
+        clientes c1_0 
+    join
+        personas c1_1 
+            on c1_0.id_persona=c1_1.id_persona 
+    order by
+        c1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:43.521 DEBUG [http-nio-127.0.0.1-8082-exec-7] org.hibernate.SQL - 
+    select
+        fv1_0.id_factura,
+        fv1_0.id_cliente,
+        fv1_0.codigo_factura,
+        fv1_0.es_credito,
+        fv1_0.id_estado,
+        fv1_0.fecha_emision,
+        fv1_0.fecha_vencimiento,
+        fv1_0.importe_total,
+        fv1_0.iva,
+        fv1_0.nro_factura,
+        fv1_0.id_presupuesto,
+        fv1_0.timbrado 
+    from
+        facturas_ventas fv1_0 
+    where
+        fv1_0.id_estado is null 
+        or fv1_0.id_estado<>? 
+    order by
+        fv1_0.id_factura desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:43.522 DEBUG [http-nio-127.0.0.1-8082-exec-8] org.hibernate.SQL - 
+    select
+        fv1_0.id_factura,
+        fv1_0.id_cliente,
+        fv1_0.codigo_factura,
+        fv1_0.es_credito,
+        fv1_0.id_estado,
+        fv1_0.fecha_emision,
+        fv1_0.fecha_vencimiento,
+        fv1_0.importe_total,
+        fv1_0.iva,
+        fv1_0.nro_factura,
+        fv1_0.id_presupuesto,
+        fv1_0.timbrado 
+    from
+        facturas_ventas fv1_0 
+    where
+        fv1_0.id_estado is null 
+        or fv1_0.id_estado<>? 
+    order by
+        fv1_0.id_factura desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:43.625 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=24
+2026-11-15 13:14:43.627 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=39
+2026-11-15 13:14:43.632 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=15
+2026-11-15 13:14:43.630 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=24
+2026-11-15 13:14:43.633 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=32
+2026-11-15 13:14:43.634 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=14
+2026-11-15 13:14:43.634 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=39
+2026-11-15 13:14:43.635 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=21
+2026-11-15 13:14:43.636 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=15
+2026-11-15 13:14:43.636 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=13
+2026-11-15 13:14:43.636 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=32
+2026-11-15 13:14:43.636 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=33
+2026-11-15 13:14:43.636 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=14
+2026-11-15 13:14:43.637 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=12
+2026-11-15 13:14:43.637 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=41
+2026-11-15 13:14:43.637 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=21
+2026-11-15 13:14:43.637 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=13
+2026-11-15 13:14:43.637 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=11
+2026-11-15 13:14:43.637 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=35
+2026-11-15 13:14:43.637 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=33
+2026-11-15 13:14:43.637 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=12
+2026-11-15 13:14:43.638 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=10
+2026-11-15 13:14:43.638 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=23
+2026-11-15 13:14:43.638 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=41
+2026-11-15 13:14:43.638 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=11
+2026-11-15 13:14:43.638 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=35
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=10
+2026-11-15 13:14:43.638 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=9
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=9
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=8
+2026-11-15 13:14:43.638 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=28
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=7
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=30
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=23
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=8
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=6
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=25
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=28
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=22
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=7
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=5
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=30
+2026-11-15 13:14:43.639 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=27
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=6
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=4
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=5
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=25
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=38
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=3
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=4
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=2
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=22
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=37
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=3
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=36
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-8] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=1
+2026-11-15 13:14:43.641 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=27
+2026-11-15 13:14:43.643 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=2
+2026-11-15 13:14:43.643 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=29
+2026-11-15 13:14:43.643 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=38
+2026-11-15 13:14:43.643 INFO  [http-nio-127.0.0.1-8082-exec-7] c.f.ventas.cache.LoggingCache - CACHE PUT facturas-ventas key=1
+2026-11-15 13:14:43.643 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=31
+2026-11-15 13:14:43.643 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=37
+2026-11-15 13:14:43.644 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=40
+2026-11-15 13:14:43.644 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=36
+2026-11-15 13:14:43.645 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=26
+2026-11-15 13:14:43.645 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=29
+2026-11-15 13:14:43.645 INFO  [http-nio-127.0.0.1-8082-exec-5] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=34
+2026-11-15 13:14:43.645 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=31
+2026-11-15 13:14:43.646 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=40
+2026-11-15 13:14:43.646 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=26
+2026-11-15 13:14:43.647 INFO  [http-nio-127.0.0.1-8082-exec-4] c.f.ventas.cache.LoggingCache - CACHE PUT clientes key=34
+2026-11-15 13:14:44.087 DEBUG [http-nio-127.0.0.1-8082-exec-1] org.hibernate.SQL - 
+    select
+        e1_0.id_estado,
+        e1_0.nombre 
+    from
+        estados e1_0
+2026-11-15 13:15:46.207 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

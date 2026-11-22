@@ -1,0 +1,7 @@
+com\ferreteria\inventario\exception\GlobalExceptionHandlerTest$Body.class
+com\ferreteria\inventario\security\AuthFilterTest.class
+com\ferreteria\inventario\config\ResilientCacheManagerTest.class
+com\ferreteria\inventario\security\AuthFilterTest$1.class
+com\ferreteria\inventario\service\AbstractBaseServiceTest.class
+com\ferreteria\inventario\exception\GlobalExceptionHandlerTest$FailingController.class
+com\ferreteria\inventario\exception\GlobalExceptionHandlerTest.class

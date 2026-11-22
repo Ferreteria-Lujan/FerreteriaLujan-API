@@ -1,0 +1,942 @@
+2026-11-15 13:09:38.762 INFO  [main] c.f.compras.ComprasApplication - Starting ComprasApplication using Java 25.0.1 with PID 13664 (C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\FerreteriaLujan-Distri\ms-compras\target\classes started by USUARIO in C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\FerreteriaLujan-Distri\ms-compras)
+2026-11-15 13:09:38.774 INFO  [main] c.f.compras.ComprasApplication - No active profile set, falling back to 1 default profile: "default"
+2026-11-15 13:09:39.570 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-15 13:09:41.304 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-15 13:09:41.308 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-15 13:09:41.629 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 302 ms. Found 4 JPA repository interfaces.
+2026-11-15 13:09:41.678 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-15 13:09:41.682 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-11-15 13:09:41.744 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.compras.repository.DetalleFacturaCompraRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:09:41.745 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.compras.repository.EstadoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:09:41.746 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.compras.repository.FacturaCompraRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:09:41.754 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.compras.repository.ProveedorRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:09:41.755 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38 ms. Found 0 Redis repository interfaces.
+2026-11-15 13:09:42.338 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=a652f9b9-c931-3818-ab4f-33e169a22571
+2026-11-15 13:09:43.333 INFO  [main] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8083 (http)
+2026-11-15 13:09:43.362 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-8083"]
+2026-11-15 13:09:43.366 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-11-15 13:09:43.367 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-15 13:09:43.538 INFO  [main] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 4645 ms
+2026-11-15 13:09:43.959 INFO  [main] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-15 13:09:44.098 INFO  [main] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-15 13:09:44.976 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-15 13:09:45.058 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-15 13:09:46.583 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a44993c
+2026-11-15 13:09:46.586 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-15 13:09:47.258 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://aws-0-sa-east-1.pooler.supabase.com:5432/postgres?sslmode=require]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.6
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-15 13:09:49.720 INFO  [main] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-15 13:09:49.737 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-15 13:09:49.952 INFO  [main] o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-15 13:09:52.561 INFO  [main] c.f.compras.config.CacheConfig - Cache Redis: prefijo 'compras::', TTL 5 min, secciones [proveedores, facturas-compra, detalles-factura-compra]
+2026-11-15 13:09:56.506 INFO  [main] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2026-11-15 13:09:57.574 INFO  [main] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2026-11-15 13:09:57.634 INFO  [main] o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestClient.
+2026-11-15 13:09:57.737 WARN  [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-11-15 13:09:57.920 INFO  [main] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2026-11-15 13:09:57.973 INFO  [main] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2026-11-15 13:09:57.983 INFO  [main] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-11-15 13:09:58.008 INFO  [main] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2026-11-15 13:09:58.009 INFO  [main] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2026-11-15 13:09:58.009 INFO  [main] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2026-11-15 13:09:58.010 INFO  [main] c.netflix.discovery.DiscoveryClient - Application is null : false
+2026-11-15 13:09:58.010 INFO  [main] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2026-11-15 13:09:58.010 INFO  [main] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2026-11-15 13:09:58.011 INFO  [main] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2026-11-15 13:09:58.736 INFO  [main] c.netflix.discovery.DiscoveryClient - The response status is 200
+2026-11-15 13:09:58.748 INFO  [main] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2026-11-15 13:09:58.755 INFO  [main] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-11-15 13:09:58.761 INFO  [main] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1794758998759 with initial instances count: 2
+2026-11-15 13:09:58.781 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application MS-COMPRAS with eureka with status UP
+2026-11-15 13:09:58.783 INFO  [main] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1794758998783, current=UP, previous=STARTING]
+2026-11-15 13:09:58.790 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-8083"]
+2026-11-15 13:09:58.790 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] c.netflix.discovery.DiscoveryClient - DiscoveryClient_MS-COMPRAS/ms-compras:8083: registering service...
+2026-11-15 13:09:58.840 INFO  [main] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8083 (http) with context path '/'
+2026-11-15 13:09:58.841 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8083
+2026-11-15 13:09:58.885 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] c.netflix.discovery.DiscoveryClient - DiscoveryClient_MS-COMPRAS/ms-compras:8083 - registration status: 204
+2026-11-15 13:09:59.853 INFO  [main] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2026-11-15 13:09:59.874 INFO  [main] c.f.compras.ComprasApplication - Started ComprasApplication in 23.4 seconds (process running for 24.821)
+2026-11-15 13:11:24.217 INFO  [http-nio-127.0.0.1-8083-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 13:11:24.218 INFO  [http-nio-127.0.0.1-8083-exec-2] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-11-15 13:11:24.220 INFO  [http-nio-127.0.0.1-8083-exec-2] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-11-15 13:11:24.421 INFO  [http-nio-127.0.0.1-8083-exec-2] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:24.421 INFO  [http-nio-127.0.0.1-8083-exec-1] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:24.421 INFO  [http-nio-127.0.0.1-8083-exec-4] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:24.519 INFO  [http-nio-127.0.0.1-8083-exec-4] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:24.701 DEBUG [http-nio-127.0.0.1-8083-exec-4] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:24.964 INFO  [http-nio-127.0.0.1-8083-exec-1] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:24.966 INFO  [http-nio-127.0.0.1-8083-exec-2] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:24.968 DEBUG [http-nio-127.0.0.1-8083-exec-1] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:24.970 DEBUG [http-nio-127.0.0.1-8083-exec-2] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:25.096 WARN  [http-nio-127.0.0.1-8083-exec-4] o.s.d.w.c.SpringDataJackson3Configuration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-11-15 13:11:25.165 INFO  [http-nio-127.0.0.1-8083-exec-6] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:25.322 INFO  [http-nio-127.0.0.1-8083-exec-6] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:25.326 DEBUG [http-nio-127.0.0.1-8083-exec-6] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:25.335 INFO  [http-nio-127.0.0.1-8083-exec-7] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:25.353 INFO  [http-nio-127.0.0.1-8083-exec-8] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:25.545 INFO  [http-nio-127.0.0.1-8083-exec-7] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:25.549 DEBUG [http-nio-127.0.0.1-8083-exec-7] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:25.555 INFO  [http-nio-127.0.0.1-8083-exec-9] c.f.c.c.FacturaCompraController - GET lista paginada: Page request [number: 0, size 100, sort: idFacturaCompra: DESC]
+2026-11-15 13:11:25.739 INFO  [http-nio-127.0.0.1-8083-exec-8] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:25.745 DEBUG [http-nio-127.0.0.1-8083-exec-8] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:25.753 INFO  [http-nio-127.0.0.1-8083-exec-10] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:25.867 INFO  [http-nio-127.0.0.1-8083-exec-9] c.f.c.s.i.FacturaCompraServiceImpl - Listando registros: Page request [number: 0, size 100, sort: idFacturaCompra: DESC]
+2026-11-15 13:11:25.882 INFO  [http-nio-127.0.0.1-8083-exec-4] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:25.917 DEBUG [http-nio-127.0.0.1-8083-exec-9] org.hibernate.SQL - 
+    select
+        fc1_0.id_factura_compra,
+        fc1_0.codigo_factura,
+        fc1_0.id_estado,
+        fc1_0.fecha_emision,
+        fc1_0.fecha_vencimiento,
+        fc1_0.importe_total,
+        fc1_0.nro_factura,
+        fc1_0.id_proveedor,
+        fc1_0.timbrado 
+    from
+        facturas_compras fc1_0 
+    left join
+        estados e1_0 
+            on e1_0.id_estado=fc1_0.id_estado 
+    where
+        e1_0.id_estado is null 
+        or lower(e1_0.nombre)<>? 
+    order by
+        fc1_0.id_factura_compra desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:25.922 INFO  [http-nio-127.0.0.1-8083-exec-10] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:25.925 DEBUG [http-nio-127.0.0.1-8083-exec-10] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:25.960 INFO  [http-nio-127.0.0.1-8083-exec-4] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:25.964 DEBUG [http-nio-127.0.0.1-8083-exec-4] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:25.986 INFO  [http-nio-127.0.0.1-8083-exec-2] c.f.c.c.FacturaCompraController - GET lista paginada: Page request [number: 0, size 100, sort: idFacturaCompra: DESC]
+2026-11-15 13:11:26.033 INFO  [http-nio-127.0.0.1-8083-exec-2] c.f.c.s.i.FacturaCompraServiceImpl - Listando registros: Page request [number: 0, size 100, sort: idFacturaCompra: DESC]
+2026-11-15 13:11:26.037 DEBUG [http-nio-127.0.0.1-8083-exec-2] org.hibernate.SQL - 
+    select
+        fc1_0.id_factura_compra,
+        fc1_0.codigo_factura,
+        fc1_0.id_estado,
+        fc1_0.fecha_emision,
+        fc1_0.fecha_vencimiento,
+        fc1_0.importe_total,
+        fc1_0.nro_factura,
+        fc1_0.id_proveedor,
+        fc1_0.timbrado 
+    from
+        facturas_compras fc1_0 
+    left join
+        estados e1_0 
+            on e1_0.id_estado=fc1_0.id_estado 
+    where
+        e1_0.id_estado is null 
+        or lower(e1_0.nombre)<>? 
+    order by
+        fc1_0.id_factura_compra desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:29.666 INFO  [http-nio-127.0.0.1-8083-exec-1] c.f.c.c.FacturaCompraController - GET lista paginada: Page request [number: 0, size 100, sort: idFacturaCompra: DESC]
+2026-11-15 13:11:29.679 INFO  [http-nio-127.0.0.1-8083-exec-6] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:29.837 INFO  [http-nio-127.0.0.1-8083-exec-1] c.f.c.s.i.FacturaCompraServiceImpl - Listando registros: Page request [number: 0, size 100, sort: idFacturaCompra: DESC]
+2026-11-15 13:11:29.837 INFO  [http-nio-127.0.0.1-8083-exec-6] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:29.840 DEBUG [http-nio-127.0.0.1-8083-exec-6] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:29.840 DEBUG [http-nio-127.0.0.1-8083-exec-1] org.hibernate.SQL - 
+    select
+        fc1_0.id_factura_compra,
+        fc1_0.codigo_factura,
+        fc1_0.id_estado,
+        fc1_0.fecha_emision,
+        fc1_0.fecha_vencimiento,
+        fc1_0.importe_total,
+        fc1_0.nro_factura,
+        fc1_0.id_proveedor,
+        fc1_0.timbrado 
+    from
+        facturas_compras fc1_0 
+    left join
+        estados e1_0 
+            on e1_0.id_estado=fc1_0.id_estado 
+    where
+        e1_0.id_estado is null 
+        or lower(e1_0.nombre)<>? 
+    order by
+        fc1_0.id_factura_compra desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:29.975 INFO  [http-nio-127.0.0.1-8083-exec-7] c.f.c.c.FacturaCompraController - GET lista paginada: Page request [number: 0, size 100, sort: idFacturaCompra: DESC]
+2026-11-15 13:11:30.145 INFO  [http-nio-127.0.0.1-8083-exec-7] c.f.c.s.i.FacturaCompraServiceImpl - Listando registros: Page request [number: 0, size 100, sort: idFacturaCompra: DESC]
+2026-11-15 13:11:30.155 DEBUG [http-nio-127.0.0.1-8083-exec-7] org.hibernate.SQL - 
+    select
+        fc1_0.id_factura_compra,
+        fc1_0.codigo_factura,
+        fc1_0.id_estado,
+        fc1_0.fecha_emision,
+        fc1_0.fecha_vencimiento,
+        fc1_0.importe_total,
+        fc1_0.nro_factura,
+        fc1_0.id_proveedor,
+        fc1_0.timbrado 
+    from
+        facturas_compras fc1_0 
+    left join
+        estados e1_0 
+            on e1_0.id_estado=fc1_0.id_estado 
+    where
+        e1_0.id_estado is null 
+        or lower(e1_0.nombre)<>? 
+    order by
+        fc1_0.id_factura_compra desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:30.907 INFO  [http-nio-127.0.0.1-8083-exec-8] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:30.989 INFO  [http-nio-127.0.0.1-8083-exec-8] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:30.993 DEBUG [http-nio-127.0.0.1-8083-exec-8] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:43.390 INFO  [http-nio-127.0.0.1-8083-exec-10] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:43.403 INFO  [http-nio-127.0.0.1-8083-exec-2] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:43.405 INFO  [http-nio-127.0.0.1-8083-exec-4] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:43.433 INFO  [http-nio-127.0.0.1-8083-exec-10] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:43.435 DEBUG [http-nio-127.0.0.1-8083-exec-10] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:43.445 INFO  [http-nio-127.0.0.1-8083-exec-4] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:43.447 INFO  [http-nio-127.0.0.1-8083-exec-2] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:43.451 DEBUG [http-nio-127.0.0.1-8083-exec-4] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:43.451 DEBUG [http-nio-127.0.0.1-8083-exec-2] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:43.531 INFO  [http-nio-127.0.0.1-8083-exec-5] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:43.533 INFO  [http-nio-127.0.0.1-8083-exec-5] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:43.536 DEBUG [http-nio-127.0.0.1-8083-exec-5] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:52.771 INFO  [http-nio-127.0.0.1-8083-exec-1] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:52.877 INFO  [http-nio-127.0.0.1-8083-exec-1] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:52.880 DEBUG [http-nio-127.0.0.1-8083-exec-1] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:11:52.926 INFO  [http-nio-127.0.0.1-8083-exec-6] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:53.205 INFO  [http-nio-127.0.0.1-8083-exec-6] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:11:53.209 DEBUG [http-nio-127.0.0.1-8083-exec-6] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:12:50.967 INFO  [http-nio-127.0.0.1-8083-exec-4] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:50.992 INFO  [http-nio-127.0.0.1-8083-exec-5] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:50.994 INFO  [http-nio-127.0.0.1-8083-exec-9] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:51.039 INFO  [http-nio-127.0.0.1-8083-exec-4] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:51.039 INFO  [http-nio-127.0.0.1-8083-exec-9] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:51.040 INFO  [http-nio-127.0.0.1-8083-exec-5] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:51.042 DEBUG [http-nio-127.0.0.1-8083-exec-9] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:12:51.042 DEBUG [http-nio-127.0.0.1-8083-exec-4] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:12:51.043 DEBUG [http-nio-127.0.0.1-8083-exec-5] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:12:51.325 INFO  [http-nio-127.0.0.1-8083-exec-1] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:51.327 INFO  [http-nio-127.0.0.1-8083-exec-1] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:51.330 DEBUG [http-nio-127.0.0.1-8083-exec-1] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:12:52.062 INFO  [http-nio-127.0.0.1-8083-exec-6] c.f.c.c.FacturaCompraController - GET lista paginada: Page request [number: 0, size 100, sort: idFacturaCompra: DESC]
+2026-11-15 13:12:52.070 INFO  [http-nio-127.0.0.1-8083-exec-7] c.f.c.c.FacturaCompraController - GET lista paginada: Page request [number: 0, size 100, sort: idFacturaCompra: DESC]
+2026-11-15 13:12:52.070 INFO  [http-nio-127.0.0.1-8083-exec-10] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:52.071 INFO  [http-nio-127.0.0.1-8083-exec-7] c.f.c.s.i.FacturaCompraServiceImpl - Listando registros: Page request [number: 0, size 100, sort: idFacturaCompra: DESC]
+2026-11-15 13:12:52.076 DEBUG [http-nio-127.0.0.1-8083-exec-7] org.hibernate.SQL - 
+    select
+        fc1_0.id_factura_compra,
+        fc1_0.codigo_factura,
+        fc1_0.id_estado,
+        fc1_0.fecha_emision,
+        fc1_0.fecha_vencimiento,
+        fc1_0.importe_total,
+        fc1_0.nro_factura,
+        fc1_0.id_proveedor,
+        fc1_0.timbrado 
+    from
+        facturas_compras fc1_0 
+    left join
+        estados e1_0 
+            on e1_0.id_estado=fc1_0.id_estado 
+    where
+        e1_0.id_estado is null 
+        or lower(e1_0.nombre)<>? 
+    order by
+        fc1_0.id_factura_compra desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:12:52.231 INFO  [http-nio-127.0.0.1-8083-exec-8] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:52.238 INFO  [http-nio-127.0.0.1-8083-exec-10] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:52.238 INFO  [http-nio-127.0.0.1-8083-exec-6] c.f.c.s.i.FacturaCompraServiceImpl - Listando registros: Page request [number: 0, size 100, sort: idFacturaCompra: DESC]
+2026-11-15 13:12:52.242 DEBUG [http-nio-127.0.0.1-8083-exec-10] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:12:52.243 DEBUG [http-nio-127.0.0.1-8083-exec-6] org.hibernate.SQL - 
+    select
+        fc1_0.id_factura_compra,
+        fc1_0.codigo_factura,
+        fc1_0.id_estado,
+        fc1_0.fecha_emision,
+        fc1_0.fecha_vencimiento,
+        fc1_0.importe_total,
+        fc1_0.nro_factura,
+        fc1_0.id_proveedor,
+        fc1_0.timbrado 
+    from
+        facturas_compras fc1_0 
+    left join
+        estados e1_0 
+            on e1_0.id_estado=fc1_0.id_estado 
+    where
+        e1_0.id_estado is null 
+        or lower(e1_0.nombre)<>? 
+    order by
+        fc1_0.id_factura_compra desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:12:52.356 INFO  [http-nio-127.0.0.1-8083-exec-8] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:52.364 DEBUG [http-nio-127.0.0.1-8083-exec-8] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:13:18.778 WARN  [http-nio-127.0.0.1-8083-exec-9] c.f.c.e.GlobalExceptionHandler - 405 /api/detalles-compras/search: Request method 'POST' is not supported
+2026-11-15 13:13:18.778 WARN  [http-nio-127.0.0.1-8083-exec-5] c.f.c.e.GlobalExceptionHandler - 405 /api/detalles-compras/search: Request method 'POST' is not supported
+2026-11-15 13:13:18.816 INFO  [http-nio-127.0.0.1-8083-exec-4] c.f.c.c.DetalleFacturaCompraController - GET lista paginada: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:13:18.816 INFO  [http-nio-127.0.0.1-8083-exec-1] c.f.c.c.DetalleFacturaCompraController - GET lista paginada: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:13:18.856 INFO  [http-nio-127.0.0.1-8083-exec-1] c.f.c.s.i.DetalleFacturaCompraServiceImpl - Listando registros: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:13:18.858 INFO  [http-nio-127.0.0.1-8083-exec-4] c.f.c.s.i.DetalleFacturaCompraServiceImpl - Listando registros: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:13:18.863 DEBUG [http-nio-127.0.0.1-8083-exec-4] org.hibernate.SQL - 
+    select
+        dfc1_0.id_detalle_compra,
+        dfc1_0.cantidad,
+        dfc1_0.id_factura_compra,
+        dfc1_0.monto_iva,
+        dfc1_0.porcentaje_iva,
+        dfc1_0.precio_unitario,
+        dfc1_0.id_producto,
+        dfc1_0.subtotal 
+    from
+        detalles_facturas_compras dfc1_0 
+    join
+        facturas_compras fc1_0 
+            on fc1_0.id_factura_compra=dfc1_0.id_factura_compra 
+    left join
+        estados e1_0 
+            on e1_0.id_estado=fc1_0.id_estado 
+    where
+        e1_0.id_estado is null 
+        or lower(e1_0.nombre)<>? 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:13:18.865 DEBUG [http-nio-127.0.0.1-8083-exec-1] org.hibernate.SQL - 
+    select
+        dfc1_0.id_detalle_compra,
+        dfc1_0.cantidad,
+        dfc1_0.id_factura_compra,
+        dfc1_0.monto_iva,
+        dfc1_0.porcentaje_iva,
+        dfc1_0.precio_unitario,
+        dfc1_0.id_producto,
+        dfc1_0.subtotal 
+    from
+        detalles_facturas_compras dfc1_0 
+    join
+        facturas_compras fc1_0 
+            on fc1_0.id_factura_compra=dfc1_0.id_factura_compra 
+    left join
+        estados e1_0 
+            on e1_0.id_estado=fc1_0.id_estado 
+    where
+        e1_0.id_estado is null 
+        or lower(e1_0.nombre)<>? 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:13:43.531 INFO  [http-nio-127.0.0.1-8083-exec-7] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:13:43.531 INFO  [http-nio-127.0.0.1-8083-exec-2] c.f.c.controller.ProveedorController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:13:43.682 INFO  [http-nio-127.0.0.1-8083-exec-2] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:13:43.682 INFO  [http-nio-127.0.0.1-8083-exec-7] c.f.c.s.impl.ProveedorServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:13:43.686 DEBUG [http-nio-127.0.0.1-8083-exec-2] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:13:43.686 DEBUG [http-nio-127.0.0.1-8083-exec-7] org.hibernate.SQL - 
+    select
+        p1_0.id_persona,
+        p1_1.apellido,
+        p1_1.correo,
+        p1_1.direccion,
+        p1_1.fecha_nacimiento,
+        p1_1.nombre,
+        p1_1.ruc,
+        p1_1.telefono,
+        p1_1.tipo_persona,
+        p1_0.plazo_entrega 
+    from
+        proveedores p1_0 
+    join
+        personas p1_1 
+            on p1_0.id_persona=p1_1.id_persona 
+    where
+        1=1 
+    order by
+        p1_1.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:58.015 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

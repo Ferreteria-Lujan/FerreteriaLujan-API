@@ -1,0 +1,607 @@
+2026-11-15 13:10:59.755 INFO  [main] c.f.inventario.InventarioApplication - Starting InventarioApplication using Java 25.0.1 with PID 17880 (C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\FerreteriaLujan-Distri\ms-inventario\target\classes started by USUARIO in C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\FerreteriaLujan-Distri\ms-inventario)
+2026-11-15 13:10:59.770 INFO  [main] c.f.inventario.InventarioApplication - No active profile set, falling back to 1 default profile: "default"
+2026-11-15 13:11:00.768 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 9.1.3.Final
+2026-11-15 13:11:02.454 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-15 13:11:02.454 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-15 13:11:02.904 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 414 ms. Found 7 JPA repository interfaces.
+2026-11-15 13:11:02.944 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-11-15 13:11:02.946 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-11-15 13:11:02.986 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.inventario.repository.CategoriaProductoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:11:02.986 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.inventario.repository.DepositoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:11:02.992 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.inventario.repository.DetalleTransferenciaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:11:02.992 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.inventario.repository.InventarioRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:11:02.992 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.inventario.repository.MarcaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:11:02.992 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.inventario.repository.ProductoRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:11:02.992 INFO  [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ferreteria.inventario.repository.TransferenciaRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-11-15 13:11:02.992 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2026-11-15 13:11:03.661 INFO  [main] o.s.cloud.context.scope.GenericScope - BeanFactory id=aebe58e5-2980-34ce-a727-c4b8c20c1b53
+2026-11-15 13:11:04.863 INFO  [main] o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-11-15 13:11:04.917 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2026-11-15 13:11:04.927 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-11-15 13:11:04.928 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-11-15 13:11:05.174 INFO  [main] o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 5254 ms
+2026-11-15 13:11:05.688 DEBUG [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2026-11-15 13:11:05.699 INFO  [main] org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-15 13:11:05.813 INFO  [main] org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-11-15 13:11:05.862 DEBUG [main] o.s.o.j.h.SpringBeanContainer - Falling back to Hibernate's default producer after bean creation failure for interface org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider': Failed to instantiate [org.hibernate.engine.jdbc.connections.spi.MultiTenantConnectionProvider]: Specified class is an interface
+2026-11-15 13:11:06.994 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-15 13:11:07.130 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-11-15 13:11:08.808 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9ae0794
+2026-11-15 13:11:08.811 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-11-15 13:11:09.887 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://aws-0-sa-east-1.pooler.supabase.com:5432/postgres?sslmode=require]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.6
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-15 13:11:10.467 DEBUG [main] o.s.o.j.h.SpringBeanContainer - Falling back to Hibernate's default producer after bean creation failure for interface org.hibernate.context.spi.CurrentTenantIdentifierResolver: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.hibernate.context.spi.CurrentTenantIdentifierResolver<?>' available
+2026-11-15 13:11:10.469 DEBUG [main] o.s.o.j.h.SpringBeanContainer - Falling back to Hibernate's default producer after bean creation failure for interface org.hibernate.context.spi.TenantSchemaMapper: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.hibernate.context.spi.TenantSchemaMapper<?>' available
+2026-11-15 13:11:10.471 DEBUG [main] o.s.o.j.h.SpringBeanContainer - Falling back to Hibernate's default producer after bean creation failure for interface org.hibernate.context.spi.TenantCredentialsMapper: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.hibernate.context.spi.TenantCredentialsMapper<?>' available
+2026-11-15 13:11:12.864 INFO  [main] org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-15 13:11:12.891 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-15 13:11:13.263 INFO  [main] o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-15 13:11:18.884 INFO  [main] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2026-11-15 13:11:19.977 INFO  [main] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2026-11-15 13:11:20.041 INFO  [main] o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestClient.
+2026-11-15 13:11:20.162 WARN  [main] o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-11-15 13:11:20.323 INFO  [main] o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2026-11-15 13:11:20.381 INFO  [main] c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2026-11-15 13:11:20.390 INFO  [main] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-11-15 13:11:20.418 INFO  [main] c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2026-11-15 13:11:20.419 INFO  [main] c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2026-11-15 13:11:20.419 INFO  [main] c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2026-11-15 13:11:20.419 INFO  [main] c.netflix.discovery.DiscoveryClient - Application is null : false
+2026-11-15 13:11:20.420 INFO  [main] c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2026-11-15 13:11:20.420 INFO  [main] c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2026-11-15 13:11:20.420 INFO  [main] c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2026-11-15 13:11:21.373 INFO  [main] c.netflix.discovery.DiscoveryClient - The response status is 200
+2026-11-15 13:11:21.378 INFO  [main] c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2026-11-15 13:11:21.382 INFO  [main] c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2026-11-15 13:11:21.386 INFO  [main] c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1794759081384 with initial instances count: 4
+2026-11-15 13:11:21.401 INFO  [main] o.s.c.n.e.s.EurekaServiceRegistry - Registering application MS-INVENTARIO with eureka with status UP
+2026-11-15 13:11:21.403 INFO  [main] c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1794759081403, current=UP, previous=STARTING]
+2026-11-15 13:11:21.408 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-8081"]
+2026-11-15 13:11:21.409 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] c.netflix.discovery.DiscoveryClient - DiscoveryClient_MS-INVENTARIO/ms-inventario:8081: registering service...
+2026-11-15 13:11:21.458 INFO  [main] o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+2026-11-15 13:11:21.459 INFO  [main] o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+2026-11-15 13:11:21.520 INFO  [DiscoveryClient-InstanceInfoReplicator-%d] c.netflix.discovery.DiscoveryClient - DiscoveryClient_MS-INVENTARIO/ms-inventario:8081 - registration status: 204
+2026-11-15 13:11:22.483 INFO  [main] o.s.cloud.commons.util.InetUtils - Cannot determine local hostname
+2026-11-15 13:11:22.507 INFO  [main] c.f.inventario.InventarioApplication - Started InventarioApplication in 25.218 seconds (process running for 26.642)
+2026-11-15 13:12:51.094 INFO  [http-nio-127.0.0.1-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-15 13:12:51.094 INFO  [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-11-15 13:12:51.097 INFO  [http-nio-127.0.0.1-8081-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-11-15 13:12:51.282 INFO  [http-nio-127.0.0.1-8081-exec-1] c.f.i.controller.ProductoController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:51.287 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:12:51.289 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1187194399<open>)] for JPA transaction
+2026-11-15 13:12:51.328 INFO  [http-nio-127.0.0.1-8081-exec-2] c.f.i.controller.ProductoController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:51.329 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:12:51.330 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1618282343<open>)] for JPA transaction
+2026-11-15 13:12:51.346 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@50849be1]
+2026-11-15 13:12:51.347 TRACE [http-nio-127.0.0.1-8081-exec-1] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:12:51.349 DEBUG [http-nio-127.0.0.1-8081-exec-1] c.f.i.s.impl.ProductoServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:51.354 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1187194399<open>)] for JPA transaction
+2026-11-15 13:12:51.355 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:12:51.355 TRACE [http-nio-127.0.0.1-8081-exec-1] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:12:51.383 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@6eb2e519]
+2026-11-15 13:12:51.384 TRACE [http-nio-127.0.0.1-8081-exec-2] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:12:51.385 DEBUG [http-nio-127.0.0.1-8081-exec-2] c.f.i.s.impl.ProductoServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:12:51.386 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1618282343<open>)] for JPA transaction
+2026-11-15 13:12:51.387 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:12:51.387 TRACE [http-nio-127.0.0.1-8081-exec-2] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:12:51.688 DEBUG [http-nio-127.0.0.1-8081-exec-2] org.hibernate.SQL - 
+    select
+        p1_0.id_producto,
+        p1_0.id_categoria,
+        p1_0.codigo,
+        p1_0.descripcion,
+        p1_0.id_marca,
+        p1_0.nombre,
+        p1_0.precio_compra,
+        p1_0.precio_venta 
+    from
+        productos p1_0 
+    order by
+        p1_0.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:12:51.688 DEBUG [http-nio-127.0.0.1-8081-exec-1] org.hibernate.SQL - 
+    select
+        p1_0.id_producto,
+        p1_0.id_categoria,
+        p1_0.codigo,
+        p1_0.descripcion,
+        p1_0.id_marca,
+        p1_0.nombre,
+        p1_0.precio_compra,
+        p1_0.precio_venta 
+    from
+        productos p1_0 
+    order by
+        p1_0.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:12:51.957 TRACE [http-nio-127.0.0.1-8081-exec-2] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:12:51.956 TRACE [http-nio-127.0.0.1-8081-exec-1] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:12:51.959 TRACE [http-nio-127.0.0.1-8081-exec-2] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:12:51.959 TRACE [http-nio-127.0.0.1-8081-exec-1] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:12:51.959 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:12:51.959 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:12:51.960 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1187194399<open>)]
+2026-11-15 13:12:51.960 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1618282343<open>)]
+2026-11-15 13:12:52.027 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:12:52.027 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:12:52.171 WARN  [http-nio-127.0.0.1-8081-exec-2] o.s.d.w.c.SpringDataJackson3Configuration$PageModule$WarningLoggingModifier - Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-11-15 13:13:18.768 INFO  [http-nio-127.0.0.1-8081-exec-3] c.f.i.controller.ProductoController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:13:18.768 INFO  [http-nio-127.0.0.1-8081-exec-4] c.f.i.controller.ProductoController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:13:18.770 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:13:18.770 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:13:18.771 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(951098157<open>)] for JPA transaction
+2026-11-15 13:13:18.771 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1365129803<open>)] for JPA transaction
+2026-11-15 13:13:18.815 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@3c8f08e3]
+2026-11-15 13:13:18.815 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@5f99de10]
+2026-11-15 13:13:18.816 TRACE [http-nio-127.0.0.1-8081-exec-4] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:13:18.816 TRACE [http-nio-127.0.0.1-8081-exec-3] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:13:18.816 DEBUG [http-nio-127.0.0.1-8081-exec-4] c.f.i.s.impl.ProductoServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:13:18.816 DEBUG [http-nio-127.0.0.1-8081-exec-3] c.f.i.s.impl.ProductoServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:13:18.817 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(951098157<open>)] for JPA transaction
+2026-11-15 13:13:18.817 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1365129803<open>)] for JPA transaction
+2026-11-15 13:13:18.817 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:13:18.817 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:13:18.817 TRACE [http-nio-127.0.0.1-8081-exec-4] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:13:18.817 TRACE [http-nio-127.0.0.1-8081-exec-3] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:13:18.819 DEBUG [http-nio-127.0.0.1-8081-exec-3] org.hibernate.SQL - 
+    select
+        p1_0.id_producto,
+        p1_0.id_categoria,
+        p1_0.codigo,
+        p1_0.descripcion,
+        p1_0.id_marca,
+        p1_0.nombre,
+        p1_0.precio_compra,
+        p1_0.precio_venta 
+    from
+        productos p1_0 
+    order by
+        p1_0.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:13:18.819 DEBUG [http-nio-127.0.0.1-8081-exec-4] org.hibernate.SQL - 
+    select
+        p1_0.id_producto,
+        p1_0.id_categoria,
+        p1_0.codigo,
+        p1_0.descripcion,
+        p1_0.id_marca,
+        p1_0.nombre,
+        p1_0.precio_compra,
+        p1_0.precio_venta 
+    from
+        productos p1_0 
+    order by
+        p1_0.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:13:18.876 TRACE [http-nio-127.0.0.1-8081-exec-4] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:13:18.877 TRACE [http-nio-127.0.0.1-8081-exec-4] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:13:18.878 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:13:18.879 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(951098157<open>)]
+2026-11-15 13:13:18.879 TRACE [http-nio-127.0.0.1-8081-exec-3] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:13:18.880 TRACE [http-nio-127.0.0.1-8081-exec-3] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:13:18.881 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:13:18.882 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1365129803<open>)]
+2026-11-15 13:13:18.918 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:13:18.923 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:13:43.532 INFO  [http-nio-127.0.0.1-8081-exec-5] c.f.i.controller.ProductoController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:13:43.532 INFO  [http-nio-127.0.0.1-8081-exec-6] c.f.i.controller.ProductoController - GET lista paginada: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:13:43.533 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:13:43.533 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:13:43.533 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(358948306<open>)] for JPA transaction
+2026-11-15 13:13:43.533 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(485698004<open>)] for JPA transaction
+2026-11-15 13:13:43.682 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@1234d43a]
+2026-11-15 13:13:43.682 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@1ba2e10e]
+2026-11-15 13:13:43.683 TRACE [http-nio-127.0.0.1-8081-exec-5] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:13:43.683 TRACE [http-nio-127.0.0.1-8081-exec-6] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:13:43.683 DEBUG [http-nio-127.0.0.1-8081-exec-5] c.f.i.s.impl.ProductoServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:13:43.683 DEBUG [http-nio-127.0.0.1-8081-exec-6] c.f.i.s.impl.ProductoServiceImpl - Listando registros: Page request [number: 0, size 100, sort: nombre: ASC]
+2026-11-15 13:13:43.683 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(485698004<open>)] for JPA transaction
+2026-11-15 13:13:43.683 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(358948306<open>)] for JPA transaction
+2026-11-15 13:13:43.685 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:13:43.685 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:13:43.685 TRACE [http-nio-127.0.0.1-8081-exec-6] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:13:43.685 TRACE [http-nio-127.0.0.1-8081-exec-5] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:13:43.687 DEBUG [http-nio-127.0.0.1-8081-exec-6] org.hibernate.SQL - 
+    select
+        p1_0.id_producto,
+        p1_0.id_categoria,
+        p1_0.codigo,
+        p1_0.descripcion,
+        p1_0.id_marca,
+        p1_0.nombre,
+        p1_0.precio_compra,
+        p1_0.precio_venta 
+    from
+        productos p1_0 
+    order by
+        p1_0.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:13:43.687 DEBUG [http-nio-127.0.0.1-8081-exec-5] org.hibernate.SQL - 
+    select
+        p1_0.id_producto,
+        p1_0.id_categoria,
+        p1_0.codigo,
+        p1_0.descripcion,
+        p1_0.id_marca,
+        p1_0.nombre,
+        p1_0.precio_compra,
+        p1_0.precio_venta 
+    from
+        productos p1_0 
+    order by
+        p1_0.nombre 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:13:43.800 TRACE [http-nio-127.0.0.1-8081-exec-6] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:13:43.801 TRACE [http-nio-127.0.0.1-8081-exec-6] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:13:43.801 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:13:43.801 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(485698004<open>)]
+2026-11-15 13:13:43.802 TRACE [http-nio-127.0.0.1-8081-exec-5] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:13:43.802 TRACE [http-nio-127.0.0.1-8081-exec-5] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:13:43.802 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:13:43.802 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(358948306<open>)]
+2026-11-15 13:13:43.916 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:13:43.916 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:14:13.043 INFO  [http-nio-127.0.0.1-8081-exec-9] c.f.i.controller.ProductoController - GET lista paginada: Page request [number: 0, size 100, sort: codigo: ASC]
+2026-11-15 13:14:13.043 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:14:13.044 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(2125207548<open>)] for JPA transaction
+2026-11-15 13:14:13.122 INFO  [http-nio-127.0.0.1-8081-exec-8] c.f.i.c.InventarioController - GET lista paginada: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.123 DEBUG [http-nio-127.0.0.1-8081-exec-8] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.InventarioServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:14:13.123 DEBUG [http-nio-127.0.0.1-8081-exec-8] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(329465142<open>)] for JPA transaction
+2026-11-15 13:14:13.131 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@706be659]
+2026-11-15 13:14:13.131 TRACE [http-nio-127.0.0.1-8081-exec-9] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:14:13.131 DEBUG [http-nio-127.0.0.1-8081-exec-9] c.f.i.s.impl.ProductoServiceImpl - Listando registros: Page request [number: 0, size 100, sort: codigo: ASC]
+2026-11-15 13:14:13.132 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(2125207548<open>)] for JPA transaction
+2026-11-15 13:14:13.132 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:14:13.132 TRACE [http-nio-127.0.0.1-8081-exec-9] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.134 DEBUG [http-nio-127.0.0.1-8081-exec-9] org.hibernate.SQL - 
+    select
+        p1_0.id_producto,
+        p1_0.id_categoria,
+        p1_0.codigo,
+        p1_0.descripcion,
+        p1_0.id_marca,
+        p1_0.nombre,
+        p1_0.precio_compra,
+        p1_0.precio_venta 
+    from
+        productos p1_0 
+    order by
+        p1_0.codigo 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:13.260 INFO  [http-nio-127.0.0.1-8081-exec-7] c.f.i.controller.DepositoController - GET lista paginada: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.261 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.DepositoServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:14:13.261 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1056220140<open>)] for JPA transaction
+2026-11-15 13:14:13.273 DEBUG [http-nio-127.0.0.1-8081-exec-8] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@17f13c6]
+2026-11-15 13:14:13.275 TRACE [http-nio-127.0.0.1-8081-exec-8] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.InventarioServiceImpl.findAll]
+2026-11-15 13:14:13.275 DEBUG [http-nio-127.0.0.1-8081-exec-8] c.f.i.s.impl.InventarioServiceImpl - Listando registros: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.277 DEBUG [http-nio-127.0.0.1-8081-exec-8] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(329465142<open>)] for JPA transaction
+2026-11-15 13:14:13.277 DEBUG [http-nio-127.0.0.1-8081-exec-8] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:14:13.278 TRACE [http-nio-127.0.0.1-8081-exec-8] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.282 DEBUG [http-nio-127.0.0.1-8081-exec-8] org.hibernate.SQL - 
+    select
+        i1_0.id_inventario,
+        i1_0.cantidad,
+        i1_0.id_deposito,
+        i1_0.id_producto,
+        i1_0.stock_maximo,
+        i1_0.stock_minimo 
+    from
+        inventarios i1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:13.282 TRACE [http-nio-127.0.0.1-8081-exec-9] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.285 TRACE [http-nio-127.0.0.1-8081-exec-9] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:14:13.285 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:14:13.286 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(2125207548<open>)]
+2026-11-15 13:14:13.357 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:14:13.359 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@340cc89c]
+2026-11-15 13:14:13.360 TRACE [http-nio-127.0.0.1-8081-exec-7] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.DepositoServiceImpl.findAll]
+2026-11-15 13:14:13.360 DEBUG [http-nio-127.0.0.1-8081-exec-7] c.f.i.s.impl.DepositoServiceImpl - Listando registros: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.361 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1056220140<open>)] for JPA transaction
+2026-11-15 13:14:13.361 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:14:13.362 TRACE [http-nio-127.0.0.1-8081-exec-7] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.365 DEBUG [http-nio-127.0.0.1-8081-exec-7] org.hibernate.SQL - 
+    select
+        d1_0.id_deposito,
+        d1_0.nombre 
+    from
+        depositos d1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:13.394 DEBUG [http-nio-127.0.0.1-8081-exec-8] org.hibernate.SQL - 
+    select
+        count(i1_0.id_inventario) 
+    from
+        inventarios i1_0
+2026-11-15 13:14:13.430 TRACE [http-nio-127.0.0.1-8081-exec-7] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.430 TRACE [http-nio-127.0.0.1-8081-exec-7] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.DepositoServiceImpl.findAll]
+2026-11-15 13:14:13.431 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:14:13.431 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1056220140<open>)]
+2026-11-15 13:14:13.443 TRACE [http-nio-127.0.0.1-8081-exec-8] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.444 TRACE [http-nio-127.0.0.1-8081-exec-8] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.InventarioServiceImpl.findAll]
+2026-11-15 13:14:13.445 DEBUG [http-nio-127.0.0.1-8081-exec-8] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:14:13.445 DEBUG [http-nio-127.0.0.1-8081-exec-8] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(329465142<open>)]
+2026-11-15 13:14:13.491 DEBUG [http-nio-127.0.0.1-8081-exec-8] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:14:13.491 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:14:13.527 INFO  [http-nio-127.0.0.1-8081-exec-1] c.f.i.controller.DepositoController - GET lista paginada: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.527 INFO  [http-nio-127.0.0.1-8081-exec-10] c.f.i.controller.MarcaController - GET lista paginada: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.527 INFO  [http-nio-127.0.0.1-8081-exec-2] c.f.i.c.CategoriaProductoController - GET lista paginada: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.528 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.DepositoServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:14:13.528 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.CategoriaProductoServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:14:13.528 DEBUG [http-nio-127.0.0.1-8081-exec-10] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.MarcaServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:14:13.528 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1789142708<open>)] for JPA transaction
+2026-11-15 13:14:13.528 DEBUG [http-nio-127.0.0.1-8081-exec-10] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(183284396<open>)] for JPA transaction
+2026-11-15 13:14:13.528 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1254833973<open>)] for JPA transaction
+2026-11-15 13:14:13.528 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@397d6afc]
+2026-11-15 13:14:13.528 DEBUG [http-nio-127.0.0.1-8081-exec-10] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@42b5d81]
+2026-11-15 13:14:13.529 TRACE [http-nio-127.0.0.1-8081-exec-2] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.CategoriaProductoServiceImpl.findAll]
+2026-11-15 13:14:13.529 TRACE [http-nio-127.0.0.1-8081-exec-10] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.MarcaServiceImpl.findAll]
+2026-11-15 13:14:13.529 DEBUG [http-nio-127.0.0.1-8081-exec-10] c.f.i.service.impl.MarcaServiceImpl - Listando registros: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.529 DEBUG [http-nio-127.0.0.1-8081-exec-2] c.f.i.s.i.CategoriaProductoServiceImpl - Listando registros: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.530 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1789142708<open>)] for JPA transaction
+2026-11-15 13:14:13.530 DEBUG [http-nio-127.0.0.1-8081-exec-10] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(183284396<open>)] for JPA transaction
+2026-11-15 13:14:13.530 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:14:13.530 DEBUG [http-nio-127.0.0.1-8081-exec-10] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:14:13.530 TRACE [http-nio-127.0.0.1-8081-exec-2] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.530 TRACE [http-nio-127.0.0.1-8081-exec-10] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.532 DEBUG [http-nio-127.0.0.1-8081-exec-10] org.hibernate.SQL - 
+    select
+        m1_0.id_marca,
+        m1_0.nombre 
+    from
+        marcas m1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:13.532 DEBUG [http-nio-127.0.0.1-8081-exec-2] org.hibernate.SQL - 
+    select
+        cp1_0.id_categoria,
+        cp1_0.descripcion,
+        cp1_0.nombre 
+    from
+        categorias_productos cp1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:13.582 TRACE [http-nio-127.0.0.1-8081-exec-2] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.582 TRACE [http-nio-127.0.0.1-8081-exec-10] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.582 TRACE [http-nio-127.0.0.1-8081-exec-2] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.CategoriaProductoServiceImpl.findAll]
+2026-11-15 13:14:13.582 TRACE [http-nio-127.0.0.1-8081-exec-10] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.MarcaServiceImpl.findAll]
+2026-11-15 13:14:13.582 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:14:13.582 DEBUG [http-nio-127.0.0.1-8081-exec-10] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:14:13.583 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1789142708<open>)]
+2026-11-15 13:14:13.583 DEBUG [http-nio-127.0.0.1-8081-exec-10] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(183284396<open>)]
+2026-11-15 13:14:13.621 INFO  [http-nio-127.0.0.1-8081-exec-4] c.f.i.c.CategoriaProductoController - GET lista paginada: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.622 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.CategoriaProductoServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:14:13.623 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1288512877<open>)] for JPA transaction
+2026-11-15 13:14:13.709 DEBUG [http-nio-127.0.0.1-8081-exec-2] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:14:13.709 DEBUG [http-nio-127.0.0.1-8081-exec-10] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:14:13.710 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@106e7e88]
+2026-11-15 13:14:13.710 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@c30dbb8]
+2026-11-15 13:14:13.710 TRACE [http-nio-127.0.0.1-8081-exec-1] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.DepositoServiceImpl.findAll]
+2026-11-15 13:14:13.710 TRACE [http-nio-127.0.0.1-8081-exec-4] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.CategoriaProductoServiceImpl.findAll]
+2026-11-15 13:14:13.710 DEBUG [http-nio-127.0.0.1-8081-exec-1] c.f.i.s.impl.DepositoServiceImpl - Listando registros: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.710 DEBUG [http-nio-127.0.0.1-8081-exec-4] c.f.i.s.i.CategoriaProductoServiceImpl - Listando registros: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.711 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1254833973<open>)] for JPA transaction
+2026-11-15 13:14:13.711 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1288512877<open>)] for JPA transaction
+2026-11-15 13:14:13.712 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:14:13.712 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:14:13.712 TRACE [http-nio-127.0.0.1-8081-exec-1] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.712 TRACE [http-nio-127.0.0.1-8081-exec-4] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.715 DEBUG [http-nio-127.0.0.1-8081-exec-1] org.hibernate.SQL - 
+    select
+        d1_0.id_deposito,
+        d1_0.nombre 
+    from
+        depositos d1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:13.715 DEBUG [http-nio-127.0.0.1-8081-exec-4] org.hibernate.SQL - 
+    select
+        cp1_0.id_categoria,
+        cp1_0.descripcion,
+        cp1_0.nombre 
+    from
+        categorias_productos cp1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:13.733 INFO  [http-nio-127.0.0.1-8081-exec-3] c.f.i.c.InventarioController - GET lista paginada: Page request [number: 1, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.734 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.InventarioServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:14:13.734 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(326582908<open>)] for JPA transaction
+2026-11-15 13:14:13.826 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@52c4bf5a]
+2026-11-15 13:14:13.827 TRACE [http-nio-127.0.0.1-8081-exec-1] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.827 TRACE [http-nio-127.0.0.1-8081-exec-4] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.827 TRACE [http-nio-127.0.0.1-8081-exec-3] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.InventarioServiceImpl.findAll]
+2026-11-15 13:14:13.827 TRACE [http-nio-127.0.0.1-8081-exec-1] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.DepositoServiceImpl.findAll]
+2026-11-15 13:14:13.827 DEBUG [http-nio-127.0.0.1-8081-exec-3] c.f.i.s.impl.InventarioServiceImpl - Listando registros: Page request [number: 1, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.827 TRACE [http-nio-127.0.0.1-8081-exec-4] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.CategoriaProductoServiceImpl.findAll]
+2026-11-15 13:14:13.827 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:14:13.829 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(326582908<open>)] for JPA transaction
+2026-11-15 13:14:13.829 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:14:13.829 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1254833973<open>)]
+2026-11-15 13:14:13.829 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:14:13.829 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1288512877<open>)]
+2026-11-15 13:14:13.829 TRACE [http-nio-127.0.0.1-8081-exec-3] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.831 DEBUG [http-nio-127.0.0.1-8081-exec-3] org.hibernate.SQL - 
+    select
+        i1_0.id_inventario,
+        i1_0.cantidad,
+        i1_0.id_deposito,
+        i1_0.id_producto,
+        i1_0.stock_maximo,
+        i1_0.stock_minimo 
+    from
+        inventarios i1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:13.858 INFO  [http-nio-127.0.0.1-8081-exec-5] c.f.i.controller.MarcaController - GET lista paginada: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.858 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.MarcaServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:14:13.858 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(1691739552<open>)] for JPA transaction
+2026-11-15 13:14:13.861 INFO  [http-nio-127.0.0.1-8081-exec-6] c.f.i.controller.ProductoController - GET lista paginada: Page request [number: 0, size 100, sort: codigo: ASC]
+2026-11-15 13:14:13.861 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:14:13.862 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(63317248<open>)] for JPA transaction
+2026-11-15 13:14:13.878 DEBUG [http-nio-127.0.0.1-8081-exec-1] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:14:13.878 DEBUG [http-nio-127.0.0.1-8081-exec-4] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:14:13.879 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@25dcaf7f]
+2026-11-15 13:14:13.879 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@6769d344]
+2026-11-15 13:14:13.879 TRACE [http-nio-127.0.0.1-8081-exec-5] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.MarcaServiceImpl.findAll]
+2026-11-15 13:14:13.879 TRACE [http-nio-127.0.0.1-8081-exec-3] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.879 TRACE [http-nio-127.0.0.1-8081-exec-6] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:14:13.880 DEBUG [http-nio-127.0.0.1-8081-exec-5] c.f.i.service.impl.MarcaServiceImpl - Listando registros: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:13.880 TRACE [http-nio-127.0.0.1-8081-exec-3] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.InventarioServiceImpl.findAll]
+2026-11-15 13:14:13.880 DEBUG [http-nio-127.0.0.1-8081-exec-6] c.f.i.s.impl.ProductoServiceImpl - Listando registros: Page request [number: 0, size 100, sort: codigo: ASC]
+2026-11-15 13:14:13.880 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:14:13.880 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(1691739552<open>)] for JPA transaction
+2026-11-15 13:14:13.880 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(326582908<open>)]
+2026-11-15 13:14:13.880 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(63317248<open>)] for JPA transaction
+2026-11-15 13:14:13.880 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:14:13.880 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:14:13.880 TRACE [http-nio-127.0.0.1-8081-exec-5] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.881 TRACE [http-nio-127.0.0.1-8081-exec-6] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:13.883 DEBUG [http-nio-127.0.0.1-8081-exec-5] org.hibernate.SQL - 
+    select
+        m1_0.id_marca,
+        m1_0.nombre 
+    from
+        marcas m1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:13.886 DEBUG [http-nio-127.0.0.1-8081-exec-6] org.hibernate.SQL - 
+    select
+        p1_0.id_producto,
+        p1_0.id_categoria,
+        p1_0.codigo,
+        p1_0.descripcion,
+        p1_0.id_marca,
+        p1_0.nombre,
+        p1_0.precio_compra,
+        p1_0.precio_venta 
+    from
+        productos p1_0 
+    order by
+        p1_0.codigo 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:14.016 DEBUG [http-nio-127.0.0.1-8081-exec-3] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:14:14.017 TRACE [http-nio-127.0.0.1-8081-exec-5] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:14.017 TRACE [http-nio-127.0.0.1-8081-exec-5] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.MarcaServiceImpl.findAll]
+2026-11-15 13:14:14.018 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:14:14.018 TRACE [http-nio-127.0.0.1-8081-exec-6] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:14.018 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(1691739552<open>)]
+2026-11-15 13:14:14.019 TRACE [http-nio-127.0.0.1-8081-exec-6] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.ProductoServiceImpl.findAll]
+2026-11-15 13:14:14.019 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:14:14.019 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(63317248<open>)]
+2026-11-15 13:14:14.061 DEBUG [http-nio-127.0.0.1-8081-exec-5] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:14:14.061 DEBUG [http-nio-127.0.0.1-8081-exec-6] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:14:14.303 INFO  [http-nio-127.0.0.1-8081-exec-9] c.f.i.c.InventarioController - GET lista paginada: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:14.303 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.InventarioServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:14:14.304 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(847063021<open>)] for JPA transaction
+2026-11-15 13:14:14.304 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@4547b09c]
+2026-11-15 13:14:14.304 TRACE [http-nio-127.0.0.1-8081-exec-9] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.InventarioServiceImpl.findAll]
+2026-11-15 13:14:14.304 DEBUG [http-nio-127.0.0.1-8081-exec-9] c.f.i.s.impl.InventarioServiceImpl - Listando registros: Page request [number: 0, size 100, sort: UNSORTED]
+2026-11-15 13:14:14.305 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(847063021<open>)] for JPA transaction
+2026-11-15 13:14:14.305 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:14:14.305 TRACE [http-nio-127.0.0.1-8081-exec-9] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:14.307 DEBUG [http-nio-127.0.0.1-8081-exec-9] org.hibernate.SQL - 
+    select
+        i1_0.id_inventario,
+        i1_0.cantidad,
+        i1_0.id_deposito,
+        i1_0.id_producto,
+        i1_0.stock_maximo,
+        i1_0.stock_minimo 
+    from
+        inventarios i1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:14.447 DEBUG [http-nio-127.0.0.1-8081-exec-9] org.hibernate.SQL - 
+    select
+        count(i1_0.id_inventario) 
+    from
+        inventarios i1_0
+2026-11-15 13:14:14.533 TRACE [http-nio-127.0.0.1-8081-exec-9] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:14.534 TRACE [http-nio-127.0.0.1-8081-exec-9] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.InventarioServiceImpl.findAll]
+2026-11-15 13:14:14.534 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:14:14.534 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(847063021<open>)]
+2026-11-15 13:14:14.708 DEBUG [http-nio-127.0.0.1-8081-exec-9] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:14:14.738 INFO  [http-nio-127.0.0.1-8081-exec-7] c.f.i.c.InventarioController - GET lista paginada: Page request [number: 1, size 100, sort: UNSORTED]
+2026-11-15 13:14:14.745 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [com.ferreteria.inventario.service.impl.InventarioServiceImpl.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly
+2026-11-15 13:14:14.746 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(430374084<open>)] for JPA transaction
+2026-11-15 13:14:14.747 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@15081d41]
+2026-11-15 13:14:14.747 TRACE [http-nio-127.0.0.1-8081-exec-7] o.s.t.i.TransactionInterceptor - Getting transaction for [com.ferreteria.inventario.service.impl.InventarioServiceImpl.findAll]
+2026-11-15 13:14:14.748 DEBUG [http-nio-127.0.0.1-8081-exec-7] c.f.i.s.impl.InventarioServiceImpl - Listando registros: Page request [number: 1, size 100, sort: UNSORTED]
+2026-11-15 13:14:14.748 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(430374084<open>)] for JPA transaction
+2026-11-15 13:14:14.749 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+2026-11-15 13:14:14.749 TRACE [http-nio-127.0.0.1-8081-exec-7] o.s.t.i.TransactionInterceptor - Getting transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:14.751 DEBUG [http-nio-127.0.0.1-8081-exec-7] org.hibernate.SQL - 
+    select
+        i1_0.id_inventario,
+        i1_0.cantidad,
+        i1_0.id_deposito,
+        i1_0.id_producto,
+        i1_0.stock_maximo,
+        i1_0.stock_minimo 
+    from
+        inventarios i1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-15 13:14:14.797 TRACE [http-nio-127.0.0.1-8081-exec-7] o.s.t.i.TransactionInterceptor - Completing transaction for [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]
+2026-11-15 13:14:14.797 TRACE [http-nio-127.0.0.1-8081-exec-7] o.s.t.i.TransactionInterceptor - Completing transaction for [com.ferreteria.inventario.service.impl.InventarioServiceImpl.findAll]
+2026-11-15 13:14:14.797 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+2026-11-15 13:14:14.798 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(430374084<open>)]
+2026-11-15 13:14:14.837 DEBUG [http-nio-127.0.0.1-8081-exec-7] o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager after transaction
+2026-11-15 13:16:20.432 INFO  [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ferreteria.seguridad.security.AuthFilterTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.793 s -- in com.ferreteria.seguridad.security.AuthFilterTest

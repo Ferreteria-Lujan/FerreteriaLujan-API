@@ -1,0 +1,3 @@
+com\ferreteria\apigateway\docs\SwaggerDefinitionsControllerTest.class
+com\ferreteria\apigateway\error\ApiErrorFilterTest.class
+com\ferreteria\apigateway\security\JwtGatewayFilterTest.class

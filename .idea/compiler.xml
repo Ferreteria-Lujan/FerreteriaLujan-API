@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="api-gateway" target="21" />
+      <module name="eureka-server" target="21" />
+      <module name="ms-compras" target="21" />
+      <module name="ms-inventario" target="21" />
+      <module name="ms-seguridad" target="21" />
+      <module name="ms-ventas" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

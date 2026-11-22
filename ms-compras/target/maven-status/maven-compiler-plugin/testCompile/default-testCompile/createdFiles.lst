@@ -1,0 +1,10 @@
+com\ferreteria\compras\exception\GlobalExceptionHandlerTest.class
+com\ferreteria\compras\config\ResilientCacheManagerTest.class
+com\ferreteria\compras\service\IvaCalculatorTest.class
+com\ferreteria\compras\service\FacturaCompraServiceImplTest.class
+com\ferreteria\compras\exception\GlobalExceptionHandlerTest$Body.class
+com\ferreteria\compras\exception\GlobalExceptionHandlerTest$FailingController.class
+com\ferreteria\compras\security\AuthFilterTest$1.class
+com\ferreteria\compras\security\AuthFilterTest.class
+com\ferreteria\compras\service\AbstractBaseServiceTest.class
+com\ferreteria\compras\service\DetalleFacturaCompraServiceImplTest.class

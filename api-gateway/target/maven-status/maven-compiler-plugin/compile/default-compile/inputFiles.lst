@@ -1,0 +1,9 @@
+C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\api-gateway\src\main\java\com\ferreteria\apigateway\ApiGatewayApplication.java
+C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\api-gateway\src\main\java\com\ferreteria\apigateway\docs\SwaggerDefinitionsController.java
+C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\api-gateway\src\main\java\com\ferreteria\apigateway\docs\SwaggerProperties.java
+C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\api-gateway\src\main\java\com\ferreteria\apigateway\error\ApiError.java
+C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\api-gateway\src\main\java\com\ferreteria\apigateway\error\ApiErrorAttributes.java
+C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\api-gateway\src\main\java\com\ferreteria\apigateway\error\ApiErrorFilter.java
+C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\api-gateway\src\main\java\com\ferreteria\apigateway\error\ApiErrorWriter.java
+C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\api-gateway\src\main\java\com\ferreteria\apigateway\security\JwtGatewayFilter.java
+C:\Users\USUARIO\Desktop\FerreteriaLujan-Distri\api-gateway\src\main\java\com\ferreteria\apigateway\security\JwtService.java
